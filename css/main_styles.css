@@ -1,0 +1,70 @@
+/*
+html {
+    background: url("../images/under.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Containers */
+
+.section-container {
+    height: 100vh;
+}
+
+#main-div-container {
+    background: url("../images/under.gif") no-repeat center;
+    -webkit-background-size: cover;
+}
+
+#about-us-container {
+    background-color: #E9ECEF;
+    padding: 46px 0 0;
+    height: 200vh;
+}
+
+#our-system-container {
+    background-color: white;
+}
+
+#our-technology-container {
+    background-color: #E9ECEF;
+}
+
+#projects-container {
+    height: 150vh;
+    background: white;
+}
+
+#purpose-text {
+    position: absolute;
+    bottom: 104px;
+    max-width: 477px;
+    font-size: 42px;
+    text-align: left;
+}
+
+.navbar-brand {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav-link {
+    color: gray !important;
+}
+
+
+
+
