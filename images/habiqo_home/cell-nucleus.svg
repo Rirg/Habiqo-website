@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="80px" viewBox="0 0 72 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>cell-nucleus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Responsive--v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="960-Home" transform="translate(-290.000000, -3005.000000)">
+            <g id="3" transform="translate(174.000000, 2523.000000)">
+                <g id="4" transform="translate(0.000000, 482.000000)">
+                    <g id="cell-nucleus" transform="translate(116.000000, 0.000000)">
+                        <circle id="Oval-9-Copy-18" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" cx="36.0824742" cy="40.4123711" r="7.42268041"></circle>
+                        <path d="M65.5249106,23.0927835 L42.8865979,35.9589181" id="Line-4" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M29.2362508,23.0927835 L6.59793814,35.9589181" id="Line-4-Copy" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" transform="translate(17.917094, 29.525851) scale(-1, 1) translate(-17.917094, -29.525851) "></path>
+                        <polygon id="Polygon" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" points="35.797242 2.4742268 68.2955148 21.2371134 68.2955148 58.7628866 35.797242 77.5257732 3.29896907 58.7628866 3.29896907 21.2371134"></polygon>
+                        <circle id="Oval-Copy-499" stroke="#FFFFFF" fill="#161616" cx="36.2886598" cy="3.29896907" r="2.4742268"></circle>
+                        <circle id="Oval-Copy-508" stroke="#FFFFFF" fill="#161616" cx="36.2886598" cy="76.7010309" r="2.4742268"></circle>
+                        <circle id="Oval-Copy-500" stroke="#FFFFFF" fill="#161616" cx="68.4536082" cy="21.443299" r="2.4742268"></circle>
+                        <circle id="Oval-Copy-506" stroke="#FFFFFF" fill="#161616" cx="3.29896907" cy="21.443299" r="2.4742268"></circle>
+                        <circle id="Oval-Copy-505" stroke="#FFFFFF" fill="#161616" cx="68.4536082" cy="57.7319588" r="2.4742268"></circle>
+                        <circle id="Oval-Copy-507" stroke="#FFFFFF" fill="#161616" cx="3.29896907" cy="57.7319588" r="2.4742268"></circle>
+                        <circle id="Oval-9-Copy-12" cx="36.2886598" cy="3.29896907" r="3.29896907"></circle>
+                        <circle id="Oval-9-Copy-17" cx="36.2886598" cy="76.7010309" r="3.29896907"></circle>
+                        <circle id="Oval-9-Copy-13" cx="68.4536082" cy="21.443299" r="3.29896907"></circle>
+                        <circle id="Oval-9-Copy-15" cx="3.29896907" cy="21.443299" r="3.29896907"></circle>
+                        <circle id="Oval-9-Copy-14" cx="68.4536082" cy="57.7319588" r="3.29896907"></circle>
+                        <circle id="Oval-9-Copy-16" cx="3.29896907" cy="57.7319588" r="3.29896907"></circle>
+                        <path d="M36.2886598,48.2474227 L36.2886598,73.0034326" id="Line-5" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

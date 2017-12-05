@@ -6,10 +6,18 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }*/
+@font-face {
+    font-family: "UniversLTStd";
+    src: url("../fonts/Univers/UniversLTStd.otf");
+}
 
-html {
-    margin: 0;
-    padding: 0;
+@font-face {
+    font-family: "UniversLTStd Black";
+    src: url("../fonts/Univers/UniversBlack.ttf");
+}
+
+body {
+    font-family: "UniversLTStd";
 }
 
 .jumbotron {
@@ -19,7 +27,6 @@ html {
 }
 
 /* Containers */
-
 .section-container {
     height: 100vh;
 }
@@ -48,17 +55,61 @@ html {
     background: white;
 }
 
+#contact-container {
+    background-color: #000;
+}
+
+/* Text containers */
+.main-content {
+    font-size: 35px;
+    line-height: 1.11;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #161616;
+}
+
+#learn-more-link {
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    bottom: 70px;
+    left: 137px;
+    color: #f6f8f9;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+
 #purpose-text {
     position: absolute;
     bottom: 104px;
+    left: 137px;
     max-width: 477px;
     font-size: 42px;
     text-align: left;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+
+#about-us-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #787e81;
+    margin-top: 208px;
+
+}
+
+#about-us-paragraph {
+    max-width: 570px;
+    margin: auto;
 }
 
 .navbar-brand {
     margin-left: 200px;
     margin-right: 200px;
+    font-family: "UniversLTStd Black";
+    font-weight: bold;
 }
 
 .nav-link {

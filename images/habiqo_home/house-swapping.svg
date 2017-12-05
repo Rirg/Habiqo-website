@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="92px" height="76px" viewBox="0 0 92 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>house-swapping</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Responsive--v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="960-Home" transform="translate(-677.000000, -2677.000000)">
+            <g id="3" transform="translate(174.000000, 2523.000000)">
+                <g id="2" transform="translate(395.000000, 142.000000)">
+                    <g id="house-swapping" transform="translate(107.000000, 0.000000)">
+                        <polyline id="Stroke-1" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" transform="translate(81.687935, 41.900025) scale(-1, 1) rotate(-120.000000) translate(-81.687935, -41.900025) " points="87.1097453 35.8265675 76.2661257 36.3193392 77.9056468 47.9734817"></polyline>
+                        <path d="M52.8433568,-5.00670805 C63.2389172,1.46607008 70.1718586,13.0135681 70.1718586,26.1908467 C70.1718586,42.9785737 58.9222784,57.1358983 43.5708734,61.495755" id="Stroke-4" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" transform="translate(56.871366, 28.244523) scale(-1, 1) rotate(-120.000000) translate(-56.871366, -28.244523) "></path>
+                        <path d="M40.7256987,103.738253 C30.2371916,97.2396818 23.2590919,85.6245534 23.2590919,72.3867232 C23.2590919,54.4839931 36.0090388,39.5669741 52.9294216,36.2126751" id="Stroke-6" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" transform="translate(38.094257, 69.975464) scale(-1, 1) rotate(-120.000000) translate(-38.094257, -69.975464) "></path>
+                        <circle id="Oval-Copy-35" stroke="#FFFFFF" fill="#161616" transform="translate(75.084548, 42.325928) scale(-1, 1) rotate(-210.000000) translate(-75.084548, -42.325928) " cx="75.0845485" cy="42.3259278" r="2.5862069"></circle>
+                        <circle id="Oval-Copy-36" stroke="#FFFFFF" fill="#161616" transform="translate(89.739721, 39.739721) scale(-1, 1) rotate(-210.000000) translate(-89.739721, -39.739721) " cx="89.7397209" cy="39.7397209" r="2.5862069"></circle>
+                        <polyline id="Path-430" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" points="27.5862069 45.5624497 46.6686176 31.0344828 66.0583012 45.4773695"></polyline>
+                        <polyline id="Path-431" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" points="40.2220128 64.5829535 40.2220128 50.6963794 54.0664287 50.6963794 54.0664287 64.5156662"></polyline>
+                        <polyline id="Path-429" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" points="32.1093276 42.4469949 32.1093276 64.6384006 61.6331939 64.6384006 61.6331939 42.1734491"></polyline>
+                        <polyline id="Stroke-1" stroke="#C5C5C5" stroke-linecap="round" stroke-linejoin="round" transform="translate(12.277582, 56.901700) scale(-1, 1) rotate(-300.000000) translate(-12.277582, -56.901700) " points="17.6993916 50.8282424 6.85577197 51.3210141 8.49529309 62.9751566"></polyline>
+                        <circle id="Oval-Copy-35" stroke="#FFFFFF" fill="#161616" transform="translate(18.880969, 54.225796) scale(-1, 1) rotate(-390.000000) translate(-18.880969, -54.225796) " cx="18.8809688" cy="54.2257964" r="2.5862069"></circle>
+                        <circle id="Oval-Copy-36" stroke="#FFFFFF" fill="#161616" transform="translate(4.225796, 56.812003) scale(-1, 1) rotate(-390.000000) translate(-4.225796, -56.812003) " cx="4.22579637" cy="56.8120033" r="2.5862069"></circle>
+                        <circle id="Oval-Copy-32" stroke="#FFFFFF" fill="#161616" transform="translate(46.636273, 31.119031) scale(-1, 1) rotate(-210.000000) translate(-46.636273, -31.119031) " cx="46.6362726" cy="31.1190312" r="2.5862069"></circle>
+                        <circle id="Oval-Copy-32" stroke="#FFFFFF" fill="#161616" transform="translate(31.981100, 64.739721) scale(-1, 1) rotate(-210.000000) translate(-31.981100, -64.739721) " cx="31.9811002" cy="64.7397209" r="2.5862069"></circle>
+                        <circle id="Oval-Copy-32" stroke="#FFFFFF" fill="#161616" transform="translate(61.291445, 64.739721) scale(-1, 1) rotate(-210.000000) translate(-61.291445, -64.739721) " cx="61.291445" cy="64.7397209" r="2.5862069"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

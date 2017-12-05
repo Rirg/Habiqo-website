@@ -7,86 +7,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/main_styles.css" media="screen"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/hover.css">
 </head>
 
 <body>
 
 
-<div class="container-fluid" style="padding: 0">
-
-    <!-- Welcome div -->
-    <div id="main-div-container" class="jumbotron jumbotron-fluid">
-        <div id="main-div" class="container section-container">
-            <p id="purpose-text">Nuestro objetivo es superar los estándares de tiempo, costo, calidad y
-                sostenibilidad.</p>
-        </div>
+<!-- Welcome div -->
+<div id="main-div-container" class="jumbotron jumbotron-fluid">
+    <div id="main-div" class="container section-container">
+        <p id="purpose-text">Nuestro objetivo es superar los estándares de tiempo, costo, calidad y
+            sostenibilidad.</p>
+        <a id="learn-more-link" class="hvr-icon-forward" href="#">Aprende Más</a>
     </div>
-
-    <!-- About us / navbar-->
-    <div id="about-us-container" class="jumbotron jumbotron-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-            <a class="navbar-brand" href="#">HABIQO</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Quienes somos <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nuestro Sistema</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Nuestra Tecnología</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Equipos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contácatanos</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
-    <!-- Our system -->
-    <div id="our-system-container" class="jumbotron jumbotron-fluid section-container">
-        <div id="our-system-div" class="container section-container">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
-    <!-- Our technology -->
-    <div id="our-technology-container" class="jumbotron jumbotron-fluid section-container">
-        <div id="our-technology-div" class="container section-container">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
-    <!-- Projects  -->
-    <div id="projects-container" class="jumbotron jumbotron-fluid">
-        <div id="projects-div" class="container section-container">
-            <h1 class="display-3">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
 </div>
 
-<!--TODO create the rest of the divs for every option in the menu-->
+<!-- About us / navbar-->
+<!-- TODO fix the responsive behavior of the navbar / add scroll-spy  -->
+<div id="about-us-container" class="jumbotron jumbotron-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand" href="#">HABIQO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Quienes somos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nuestro Sistema</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nuestra Tecnología</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Equipos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <p id="about-us-title">TAKING ECUADOR BY STORM</p>
+        <p id="about-us-paragraph" class="main-content">Something written here that talks about who Habiqo us and what
+            values you stand for, it should be short, simple and to the point.</p>
+    </div>
+</div>
+
+<!-- Our system -->
+<div id="our-system-container" class="jumbotron jumbotron-fluid section-container">
+    <div id="our-system-div" class="container section-container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<!-- Our technology -->
+<div id="our-technology-container" class="jumbotron jumbotron-fluid section-container">
+    <div id="our-technology-div" class="container section-container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<!-- Projects  -->
+<div id="projects-container" class="jumbotron jumbotron-fluid">
+    <div id="projects-div" class="container section-container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<!-- Team  -->
+<div id="team-container" class="jumbotron jumbotron-fluid">
+    <div id="team-div" class="container section-container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<!-- Contact us  -->
+<div id="contact-container" class="jumbotron jumbotron-fluid">
+    <div id="contact-div" class="container section-container">
+        <h1 class="display-3">Fluid jumbotron</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
 
 
 <script src="js/jquery-3.2.1.min.js"></script>
