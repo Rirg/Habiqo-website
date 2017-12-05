@@ -32,7 +32,7 @@ body {
 }
 
 #main-div-container {
-    background: url("../images/under.gif") no-repeat center;
+    background: url("../images/background_top.jpg") no-repeat center;
     -webkit-background-size: cover;
 }
 
@@ -40,6 +40,12 @@ body {
     background-color: #E9ECEF;
     padding: 46px 0 0;
     height: 200vh;
+}
+
+#about-us-image {
+    height: 600px;
+    width: 720px;
+    float: right;
 }
 
 #our-system-container {
@@ -59,6 +65,10 @@ body {
     background-color: #000;
 }
 
+.card {
+    border: none;
+}
+
 /* Text containers */
 .main-content {
     font-size: 35px;
@@ -68,22 +78,11 @@ body {
     color: #161616;
 }
 
-#learn-more-link {
-    font-size: 16px;
-    text-align: left;
-    position: absolute;
-    bottom: 70px;
-    left: 137px;
-    color: #f6f8f9;
-    text-decoration: none;
-    padding-right: 40px;
-}
-
-
 #purpose-text {
     position: absolute;
     bottom: 104px;
-    left: 137px;
+    margin-left: 50px;
+    margin-right: 50px;
     max-width: 477px;
     font-size: 42px;
     text-align: left;
@@ -91,18 +90,54 @@ body {
     letter-spacing: -0.5px;
 }
 
-#about-us-title {
+
+#learn-more-link {
+    font-size: 16px;
+    text-align: left;
+    position: absolute;
+    bottom: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: #f6f8f9;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+#about-us-subheading {
+    margin-top: 208px;
+}
+
+.section-subheading {
     font-size: 14px;
     letter-spacing: 2px;
     text-align: center;
     color: #787e81;
-    margin-top: 208px;
+}
 
+#our-system-subheading {
+    margin-top: 130px;
 }
 
 #about-us-paragraph {
     max-width: 570px;
     margin: auto;
+}
+
+.card-img-top {
+    width: 80px;
+    align-self: center;
+}
+
+.card-title {
+    color: black;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787e81;
+    text-align: center;
 }
 
 .navbar-brand {

@@ -23,83 +23,129 @@
     </div>
 </div>
 
-<!-- About us / navbar-->
+<!--Navbar -->
 <!-- TODO fix the responsive behavior of the navbar / add scroll-spy  -->
-<div id="about-us-container" class="jumbotron jumbotron-fluid">
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <a class="navbar-brand" href="#">HABIQO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<nav class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">HABIQO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Quienes somos <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nuestro Sistema</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Nuestra Tecnología</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Equipos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contáctanos</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Quienes somos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Nuestro Sistema</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Nuestra Tecnología</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Equipos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- About us -->
+<div id="about-us-container" class="jumbotron jumbotron-fluid">
+
     <div class="container">
-        <p id="about-us-title">TAKING ECUADOR BY STORM</p>
+        <p class="section-subheading" id="about-us-subheading">TAKING ECUADOR BY STORM</p>
         <p id="about-us-paragraph" class="main-content">Something written here that talks about who Habiqo us and what
             values you stand for, it should be short, simple and to the point.</p>
     </div>
+    <img id="about-us-image" src="images/about_us_image.jpg" alt="">
 </div>
 
 <!-- Our system -->
 <div id="our-system-container" class="jumbotron jumbotron-fluid section-container">
     <div id="our-system-div" class="container section-container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
+        <p class="section-subheading" id="our-system-subheading">MAKING HOMES BEAUTIFUL</p>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/methodology-process.svg" alt="Diseño e ingeniería">
+                <div class="card-body">
+                    <h4 class="card-title">DISEÑO E INGENIERÍA SIMPLIFICADA</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/house-swapping.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">LIBERTAD ARQUITECTÓNICA</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/proposal-contract-offer.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">AHORRO DE COSTOS</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/cell-nucleus.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">SUSTENTABLE</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/time-clock.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">TIEMPO DE ENTREGA</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="images/habiqo_home/locked-door.svg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">SEGURIDAD</h4>
+                    <p class="card-text">Some text here that explains more. about this category. There is no need for dropdown because we already have a lot of space to work with.</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
 <!-- Our technology -->
 <div id="our-technology-container" class="jumbotron jumbotron-fluid section-container">
     <div id="our-technology-div" class="container section-container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+
     </div>
 </div>
 
 <!-- Projects  -->
 <div id="projects-container" class="jumbotron jumbotron-fluid">
     <div id="projects-div" class="container section-container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
 </div>
 
 <!-- Team  -->
 <div id="team-container" class="jumbotron jumbotron-fluid">
     <div id="team-div" class="container section-container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
 </div>
 
 <!-- Contact us  -->
 <div id="contact-container" class="jumbotron jumbotron-fluid">
     <div id="contact-div" class="container section-container">
-        <h1 class="display-3">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
     </div>
 </div>
 
