@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    font-family: "UniversLTStd";
+    font-family: "UniversLTStd", serif;
 }
 
 .jumbotron {
@@ -26,14 +26,41 @@ body {
     padding: 0;
 }
 
+/* NavBar */
+.navbar {
+    background: #E9ECEF !important;
+}
+
+/* TODO add a breakpoint for this margins just with lg or xl*/
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: 200px;
+        margin-right: 200px;
+        font-weight: bold;
+    }
+}
+
+.ul.nav a:hover, ul.nav a:focus, ul.nav a.active {
+    background-color: transparent !important;
+}
+
 /* Containers */
 .section-container {
     height: 100vh;
 }
 
+#sections-container {
+    position: relative;
+    overflow-y: scroll;
+}
+
 #main-div-container {
     background: url("../images/background_top.jpg") no-repeat center;
     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #about-us-container {
@@ -42,10 +69,24 @@ body {
     height: 200vh;
 }
 
+#video-container {
+    position: absolute;
+    float: left;
+    width: 570px;
+    height: 430px;
+    background-color: white;
+    margin-top: 330px;
+    z-index: 2;
+    left: 220px;
+}
+
 #about-us-image {
+    position: relative;
     height: 600px;
     width: 720px;
     float: right;
+    margin-top: 240px;
+    z-index: 1;
 }
 
 #our-system-container {
@@ -70,6 +111,7 @@ body {
 }
 
 /* Text containers */
+
 .main-content {
     font-size: 35px;
     line-height: 1.11;
@@ -86,16 +128,16 @@ body {
     max-width: 477px;
     font-size: 42px;
     text-align: left;
+    padding-bottom: 40px;
     line-height: 1.1;
     letter-spacing: -0.5px;
 }
 
-
 #learn-more-link {
+    position: absolute;
     font-size: 16px;
     text-align: left;
-    position: absolute;
-    bottom: 70px;
+    bottom: 89px;
     margin-left: 50px;
     margin-right: 50px;
     color: #f6f8f9;
@@ -115,7 +157,7 @@ body {
 }
 
 #our-system-subheading {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 #about-us-paragraph {
@@ -140,16 +182,6 @@ body {
     text-align: center;
 }
 
-.navbar-brand {
-    margin-left: 200px;
-    margin-right: 200px;
-    font-family: "UniversLTStd Black";
-    font-weight: bold;
-}
-
-.nav-link {
-    color: gray !important;
-}
 
 
 
