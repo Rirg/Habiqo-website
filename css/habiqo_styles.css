@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
 /*
 html {
     background: url("../images/under.gif") no-repeat center center fixed;
@@ -16,6 +18,89 @@ html {
     src: url("../fonts/Univers/UniversBlack.ttf");
 }
 
+/*Progress bar*/
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+progress {
+    /* Positioning */
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    /* Dimensions */
+    width: 100%;
+    height: .25em;
+
+    /* Reset the apperance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    /* Get rid of the default border in Firefox/Opera. */
+    border: none;
+
+    /* For Firefox/IE10+ */
+    background-color: transparent;
+
+    /* For IE10+, color of the progress bar */
+    color: #161616;
+}
+
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+
+.flat::-webkit-progress-value {
+    background-color: #161616;
+}
+
+.flat::-moz-progress-bar {
+    background-color: #161616;
+}
+
+.single::-webkit-progress-value {
+    background: transparent -webkit-linear-gradient(left, transparent, #161616);
+}
+
+.single::-moz-progress-bar {
+    background: transparent -moz-linear-gradient(left, transparent, #161616);
+}
+
+.multiple::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg,
+    transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0,0, 0, .1) 66%, transparent 66%),
+    -webkit-linear-gradient(left, green, #161616);
+}
+
+.multiple::-moz-progress-bar {
+    background-image: -moz-linear-gradient(-45deg,
+    transparent 33%, rgba(0, 0, 0, .1) 33%,
+    rgba(0,0, 0, .1) 66%, transparent 66%),
+    -moz-linear-gradient(left, green, #161616);
+}
+
+.progress-container {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: .25em;
+    display: block;
+}
+
+.progress-bar {
+    position: absolute;
+    background-color: #161616;
+    width: 50%;
+    display: block;
+    height: inherit;
+}
+/*end progress bar*/
+
 body {
     font-family: "UniversLTStd", serif;
 }
@@ -27,6 +112,9 @@ body {
 }
 
 /* NavBar */
+#navbar-habiqo {
+
+}
 .navbar {
     background: #E9ECEF !important;
 }
@@ -47,7 +135,8 @@ body {
 
 /* Containers */
 .section-container {
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
 }
 
 #sections-container {
@@ -66,7 +155,8 @@ body {
 #about-us-container {
     background-color: #E9ECEF;
     padding: 46px 0 0;
-    height: 200vh;
+    min-height: 200vh;
+    height: auto;
 }
 
 #video-container {
@@ -91,6 +181,9 @@ body {
 
 #our-system-container {
     background-color: white;
+    display: block;
+    overflow: auto;
+
 }
 
 #our-technology-container {

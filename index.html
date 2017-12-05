@@ -11,6 +11,7 @@
     <link type="text/css" rel="stylesheet" href="css/habiqo_styles.css" media="screen"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="css/hover.css">
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-habiqo" data-offset="65">
@@ -25,16 +26,21 @@
     </div>
 </div>
 
+
 <!--Navbar -->
 <!-- TODO fix the responsive behavior of the navbar / add scroll-spy  -->
 <nav id="navbar-habiqo" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <!-- Progress bar -->
+    <progress value="0" id="progressBar">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
     <a class="navbar-brand" href="#">HABIQO</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-
-
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto nav nav-pills">
             <li class="nav-item">
@@ -174,11 +180,116 @@
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+
 <script>
-    // $('#sections-container').scrollspy({
-    //     target: '#navbar-habiqo',
-    //     offset: 70
-    // });
+    // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
+    // in the first div
+    var getMax = function () {
+        return $(document).height() - $(window).height() - $("#main-div-container").height();
+    };
+
+    // Get the current value subtracting the main-div-container height
+    var getValue = function () {
+        return $(window).scrollTop() - $("#main-div-container").height();
+    };
+
+    if ('max' in document.createElement('progress')) {
+        // Browser supports progress element
+        var progressBar = $('progress');
+
+        // Set the Max attr for the first time
+        progressBar.attr({max: getMax()});
+
+        $(document).on('scroll', function () {
+            // On scroll only Value attr needs to be calculated
+            progressBar.attr({value: getValue()});
+        });
+
+        $(window).resize(function () {
+            // On resize, both Max/Value attr needs to be calculated
+            progressBar.attr({max: getMax(), value: getValue()});
+        });
+    }
+    else {
+        var progressBar = $('.progress-bar'),
+            max = getMax(),
+            value, width;
+
+        var getWidth = function () {
+            // Calculate width in percentage
+            value = getValue();
+            width = (value / max) * 100;
+            width = width + '%';
+            return width;
+        };
+
+        var setWidth = function () {
+            progressBar.css({width: getWidth()});
+        };
+
+        $(document).on('scroll', setWidth);
+        $(window).on('resize', function () {
+            // Need to reset the Max attr
+            max = getMax();
+            setWidth();
+        });
+    }
+
+    $('#flat').addClass("active");
+    $('#progressBar').addClass('flat');
+
+    $('#flat').on('click', function () {
+        $('#progressBar').removeClass().addClass('flat');
+        $('a').removeClass();
+        $(this).addClass('active');
+        $(this).preventDefault();
+    });
+
+    $('#single').on('click', function () {
+        $('#progressBar').removeClass().addClass('single');
+        $('a').removeClass();
+        $(this).addClass('active');
+        $(this).preventDefault();
+    });
+
+    $('#multiple').on('click', function () {
+        $('#progressBar').removeClass().addClass('multiple');
+        $('a').removeClass();
+        $(this).addClass('active');
+        $(this).preventDefault();
+    });
+
+    $('#semantic').on('click', function () {
+        $('#progressBar').removeClass().addClass('semantic');
+        $('a').removeClass();
+        $(this).addClass('active');
+        $(this).preventDefault();
+        alert('hello');
+    });
+
+    $(document).on('scroll', function () {
+
+        maxAttr = $('#progressBar').attr('max');
+        valueAttr = $('#progressBar').attr('value');
+        percentage = (valueAttr / maxAttr) * 100;
+
+        if (percentage < 49) {
+            document.styleSheets[0].addRule('.semantic', 'color: #161616');
+            document.styleSheets[0].addRule('.semantic::-webkit-progress-value', 'background-color: #161616');
+            document.styleSheets[0].addRule('.semantic::-moz-progress-bar', 'background-color: #161616');
+        }
+        else if (percentage < 98) {
+            document.styleSheets[0].addRule('.semantic', 'color: orange');
+            document.styleSheets[0].addRule('.semantic::-webkit-progress-value', 'background-color: orange');
+            document.styleSheets[0].addRule('.semantic::-moz-progress-bar', 'background-color: orange');
+        }
+        else {
+            document.styleSheets[0].addRule('.semantic', 'color: green');
+            document.styleSheets[0].addRule('.semantic::-webkit-progress-value', 'background-color: green');
+            document.styleSheets[0].addRule('.semantic::-moz-progress-bar', 'background-color: green');
+        }
+
+    });
 </script>
 </body>
 </html>
