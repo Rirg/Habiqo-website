@@ -18,7 +18,7 @@ html {
     src: url("../fonts/Univers/UniversBlack.ttf");
 }
 
-/*Progress bar*/
+/* Progress bar */
 *, *::after, *::before {
     box-sizing: border-box;
 }
@@ -71,14 +71,14 @@ progress::-webkit-progress-bar {
 .multiple::-webkit-progress-value {
     background-image: -webkit-linear-gradient(-45deg,
     transparent 33%, rgba(0, 0, 0, .1) 33%,
-    rgba(0,0, 0, .1) 66%, transparent 66%),
+    rgba(0, 0, 0, .1) 66%, transparent 66%),
     -webkit-linear-gradient(left, green, #161616);
 }
 
 .multiple::-moz-progress-bar {
     background-image: -moz-linear-gradient(-45deg,
     transparent 33%, rgba(0, 0, 0, .1) 33%,
-    rgba(0,0, 0, .1) 66%, transparent 66%),
+    rgba(0, 0, 0, .1) 66%, transparent 66%),
     -moz-linear-gradient(left, green, #161616);
 }
 
@@ -99,6 +99,7 @@ progress::-webkit-progress-bar {
     display: block;
     height: inherit;
 }
+
 /*end progress bar*/
 
 body {
@@ -115,12 +116,13 @@ body {
 #navbar-habiqo {
 
 }
+
 .navbar {
     background: #E9ECEF !important;
 }
 
 /* TODO add a breakpoint for this margins just with lg or xl*/
- /*Large devices (desktops, 992px and up)*/
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .navbar-brand {
         margin-left: 200px;
@@ -181,9 +183,6 @@ body {
 
 #our-system-container {
     background-color: white;
-    display: block;
-    overflow: auto;
-
 }
 
 #our-technology-container {
@@ -204,7 +203,6 @@ body {
 }
 
 /* Text containers */
-
 .main-content {
     font-size: 35px;
     line-height: 1.11;
@@ -273,6 +271,84 @@ body {
     line-height: 1.5;
     color: #787e81;
     text-align: center;
+}
+
+/* Our technology */
+#our-technology-image {
+    width: 720px;
+    height: 600px;
+}
+
+#our-technology-text {
+    margin-left: 107px;
+}
+
+/* Footer */
+#habiqo-footer {
+    margin-top: 50px;
+    background-color: white;
+    color: white;
+}
+
+#footer-email {
+    word-wrap: break-word;
+}
+
+#habiqo-footer .row {
+    margin-bottom: 60px;
+}
+
+#habiqo-footer .info{
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#habiqo-footer ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#habiqo-footer h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#habiqo-footer .logo{
+    margin-top: 10px;
+}
+
+#habiqo-footer .second-bar .logo a{
+    color:white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#habiqo-footer a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#habiqo-footer a:hover,
+#habiqo-footer a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 767px) {
+    #habiqo-footer {
+        text-align: center;
+    }
+
+    #habiqo-footer .info{
+        text-align: center;
+    }
 }
 
 
