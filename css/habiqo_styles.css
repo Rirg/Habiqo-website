@@ -102,6 +102,8 @@ progress::-webkit-progress-bar {
 
 body {
     font-family: "UniversLTStd", serif;
+    height: 100%;
+    width: 100%;
 }
 
 /* NavBar */
@@ -127,27 +129,11 @@ body {
     background-color: transparent !important;
 }
 
-/* Containers */
-.section-container {
-    min-height: 100vh;
-    height: auto;
-    width: 100%;
-}
-
-.section-subheading {
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #787e81;
-}
-
-#sections-container {
-    position: relative;
-    overflow-y: scroll;
-}
-
 /* Main div */
-#main-div-container {
+.main-div-container {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
     background: url("../images/background_top.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -156,7 +142,7 @@ body {
     color: white;
 }
 
-#purpose-text {
+.purpose-text {
     position: absolute;
     bottom: 104px;
     margin-left: 50px;
@@ -173,7 +159,7 @@ body {
     position: absolute;
     font-size: 16px;
     text-align: left;
-    bottom: 89px;
+    bottom: 104px;
     margin-left: 50px;
     margin-right: 50px;
     color: #f6f8f9;
@@ -181,19 +167,41 @@ body {
     padding-right: 40px;
 }
 
+/* Containers */
+.section-container {
+    /* subtract the navbar */
+    min-height: calc(100vh - 65px);
+    min-height: -o-calc(100vh - 65px); /* opera */
+    min-height: -webkit-calc(100vh - 65px); /* google, safari */
+    min-height: -moz-calc(100vh - 65px); /* firefox */
+    height: auto;
+    width: 100vw;
+}
+
+.section-subheading {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #787e81;
+}
+
+.sections-container {
+    position: relative;
+}
+
 /* About us */
-#about-us-container {
+.about-us-container {
     background-color: #E9ECEF;
     padding: 46px 0 0;
     min-height: 200vh;
     height: auto;
 }
 
-#about-us-subheading {
+.about-us-subheading {
     margin-top: 208px;
 }
 
-#about-us-paragraph {
+.about-us-paragraph {
     max-width: 570px;
     margin: auto;
     font-size: 35px;
@@ -203,47 +211,42 @@ body {
     color: #161616;
 }
 
-#container-video-image {
+.container-video-image, .about-us-image-container {
     padding: 0;
     margin: 0;
-}
-
-#about-us-image-container {
-    margin: 0;
-    padding: 0;
 }
 
 @media (min-width: 992px) {
-    #video-container {
-        margin-top: 275px;
-        left: 90px;
-        width: 15vw;
-        height: 28vw;
-        background: white;
+    .video-container > div {
+        position: absolute;
+        top: 315px;
+        left: 220px;
+        height: 450px;
+        width: 600px;
         z-index: 2;
+        background-color: white;
     }
 
-    #about-us-image {
+    .about-us-image {
         width: 100%;
-        height: auto;
-        max-height: 600px;
+        height: 600px;
         margin-top: 240px;
         z-index: 1;
     }
 }
 
 @media (max-width: 992px) {
-    #video-container {
+    .video-container  {
         align-self: center;
         width: 100%;
-        height: 430px;
+        height: 400px;
         background-color: white;
         margin-top: 330px;
         margin-left: 20px;
         margin-right: 20px;
     }
 
-    #about-us-image {
+    .about-us-image {
         align-self: center;
         max-height: 600px;
         width: 90%;
@@ -256,12 +259,10 @@ body {
 }
 
 /* Our system */
-#our-system-container {
+.our-system-container {
     background-color: white;
-}
-
-#our-system-subheading {
     padding-top: 130px;
+    padding-bottom: 130px;
 }
 
 .card {
@@ -286,22 +287,10 @@ body {
 }
 
 /* Our technology */
-#our-technology-container {
+.our-technology-container {
     background-color: #E9ECEF;
 }
 
-/* Our projects */
-#projects-container {
-    height: 150vh;
-    background: white;
-}
-
-/* Contact */
-#contact-container {
-    background-color: #000;
-}
-
-/* Our technology */
 #our-technology-image {
     width: 720px;
     height: 600px;
@@ -310,6 +299,73 @@ body {
 #our-technology-text {
     margin-left: 107px;
 }
+
+/* Our projects */
+.projects-container {
+    height: 150vh;
+    background: white;
+}
+
+/* end projects*/
+
+/* Contact */
+.contact-container, .contact-video-container, .contact-form-container {
+    padding: 0;
+    margin: 0;
+}
+
+.contact-container {
+    /* Remove the navbar height*/
+    height: calc(100vh - 55px);
+}
+
+.contact-video-container {
+    overflow: hidden;
+    height: 100%;
+}
+
+.contact-form-container {
+    height: 100%;
+    background-color: black;
+}
+
+/* Large devices: set a specific width / auto height and translate -50% to center the video */
+@media (min-width: 992px) {
+    .contact-video-container > video {
+        background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
+        height: auto;
+        width: 140vw;
+        transform: translateX(-50%);
+    }
+}
+
+/* Medium devices: make the container height bigger and split the height 50 - 50 between the contact form and the video */
+@media (max-width: 992px) {
+    .contact-container {
+        height: 190vh;
+    }
+
+    .contact-video-container {
+        height: 50%;
+    }
+
+    .contact-form-container {
+        height: 50%;
+    }
+}
+
+/* Small devices: center the video */
+/*@media (min-width: 576px) and (max-width: 992px) {*/
+    /*.contact-container {*/
+        /*height: auto;*/
+        /*width: 100vh;*/
+    /*}*/
+    /*.contact-video-container > video {*/
+        /*width: 100% !important;*/
+        /*height: auto !important;*/
+    /*}*/
+
+/*}*/
 
 /* Footer */
 #habiqo-footer {

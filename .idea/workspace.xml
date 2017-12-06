@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/building.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +30,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.49356222">
       <split-first>
         <leaf>
-          <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/building.html">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+                <state relative-caret-position="308">
+                  <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
                   <folding />
                 </state>
               </provider>
@@ -57,8 +57,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+                <state relative-caret-position="228">
+                  <caret line="265" column="1" lean-forward="false" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -85,7 +85,17 @@
       <find>sections</find>
       <find>about</find>
       <find>dic</find>
+      <find>learn</find>
+      <find>main</find>
+      <find>id</find>
+      <find>text-decora</find>
+      <find>104</find>
       <find>auto</find>
+      <find>90</find>
+      <find>.</find>
+      <find>.video-container</find>
+      <find>background: white;</find>
+      <find>ourS</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -103,8 +113,8 @@
         <option value="$PROJECT_DIR$/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/css/hover.css" />
         <option value="$PROJECT_DIR$/css/main_styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/building.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/habiqo_styles.css" />
       </list>
     </option>
@@ -233,7 +243,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="building.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Habiqo web/building.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Habiqo web/index.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -276,7 +286,7 @@
     </configuration>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.building.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -293,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512093005711</updated>
-      <workItem from="1512093008638" duration="62390000" />
+      <workItem from="1512093008638" duration="86364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62390000" />
+    <option name="totallyTimeSpent" value="86364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,14 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Habiqo web.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/hocer.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -487,18 +489,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/building.html">
+    <entry file="file://$PROJECT_DIR$/Habiqo web.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/media.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="30" column="22" lean-forward="false" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        <state relative-caret-position="228">
+          <caret line="265" column="1" lean-forward="false" selection-start-line="265" selection-start-column="1" selection-end-line="265" selection-end-column="1" />
           <folding />
         </state>
       </provider>
