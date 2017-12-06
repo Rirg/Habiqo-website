@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
-
 /*
 html {
     background: url("../images/under.gif") no-repeat center center fixed;
@@ -33,7 +31,7 @@ progress {
     width: 100%;
     height: .25em;
 
-    /* Reset the apperance */
+    /* Reset the appearance */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -106,12 +104,6 @@ body {
     font-family: "UniversLTStd", serif;
 }
 
-.jumbotron {
-    color: white;
-    margin: 0;
-    padding: 0;
-}
-
 /* NavBar */
 #navbar-habiqo {
 
@@ -139,6 +131,14 @@ body {
 .section-container {
     min-height: 100vh;
     height: auto;
+    width: 100%;
+}
+
+.section-subheading {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #787e81;
 }
 
 #sections-container {
@@ -146,69 +146,14 @@ body {
     overflow-y: scroll;
 }
 
+/* Main div */
 #main-div-container {
     background: url("../images/background_top.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-
-#about-us-container {
-    background-color: #E9ECEF;
-    padding: 46px 0 0;
-    min-height: 200vh;
-    height: auto;
-}
-
-#video-container {
-    position: absolute;
-    float: left;
-    width: 570px;
-    height: 430px;
-    background-color: white;
-    margin-top: 330px;
-    z-index: 2;
-    left: 220px;
-}
-
-#about-us-image {
-    position: relative;
-    height: 600px;
-    width: 720px;
-    float: right;
-    margin-top: 240px;
-    z-index: 1;
-}
-
-#our-system-container {
-    background-color: white;
-}
-
-#our-technology-container {
-    background-color: #E9ECEF;
-}
-
-#projects-container {
-    height: 150vh;
-    background: white;
-}
-
-#contact-container {
-    background-color: #000;
-}
-
-.card {
-    border: none;
-}
-
-/* Text containers */
-.main-content {
-    font-size: 35px;
-    line-height: 1.11;
-    letter-spacing: -0.2px;
-    text-align: center;
-    color: #161616;
+    color: white;
 }
 
 #purpose-text {
@@ -236,24 +181,91 @@ body {
     padding-right: 40px;
 }
 
+/* About us */
+#about-us-container {
+    background-color: #E9ECEF;
+    padding: 46px 0 0;
+    min-height: 200vh;
+    height: auto;
+}
+
 #about-us-subheading {
     margin-top: 208px;
 }
 
-.section-subheading {
-    font-size: 14px;
-    letter-spacing: 2px;
+#about-us-paragraph {
+    max-width: 570px;
+    margin: auto;
+    font-size: 35px;
+    line-height: 1.11;
+    letter-spacing: -0.2px;
     text-align: center;
-    color: #787e81;
+    color: #161616;
+}
+
+#container-video-image {
+    padding: 0;
+    margin: 0;
+}
+
+#about-us-image-container {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 992px) {
+    #video-container {
+        margin-top: 275px;
+        left: 90px;
+        width: 15vw;
+        height: 28vw;
+        background: white;
+        z-index: 2;
+    }
+
+    #about-us-image {
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+        margin-top: 240px;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 992px) {
+    #video-container {
+        align-self: center;
+        width: 100%;
+        height: 430px;
+        background-color: white;
+        margin-top: 330px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #about-us-image {
+        align-self: center;
+        max-height: 600px;
+        width: 90%;
+        height: auto;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 100px;
+    }
+}
+
+/* Our system */
+#our-system-container {
+    background-color: white;
 }
 
 #our-system-subheading {
     padding-top: 130px;
 }
 
-#about-us-paragraph {
-    max-width: 570px;
-    margin: auto;
+.card {
+    border: none;
 }
 
 .card-img-top {
@@ -271,6 +283,22 @@ body {
     line-height: 1.5;
     color: #787e81;
     text-align: center;
+}
+
+/* Our technology */
+#our-technology-container {
+    background-color: #E9ECEF;
+}
+
+/* Our projects */
+#projects-container {
+    height: 150vh;
+    background: white;
+}
+
+/* Contact */
+#contact-container {
+    background-color: #000;
 }
 
 /* Our technology */
@@ -298,7 +326,7 @@ body {
     margin-bottom: 60px;
 }
 
-#habiqo-footer .info{
+#habiqo-footer .info {
     text-align: justify;
     color: #afb0b1;
 }
@@ -316,12 +344,12 @@ body {
     margin-top: 30px;
 }
 
-#habiqo-footer .logo{
+#habiqo-footer .logo {
     margin-top: 10px;
 }
 
-#habiqo-footer .second-bar .logo a{
-    color:white;
+#habiqo-footer .second-bar .logo a {
+    color: white;
     font-size: 28px;
     float: left;
     font-weight: bold;
@@ -346,7 +374,7 @@ body {
         text-align: center;
     }
 
-    #habiqo-footer .info{
+    #habiqo-footer .info {
         text-align: center;
     }
 }
