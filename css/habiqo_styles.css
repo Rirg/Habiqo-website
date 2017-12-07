@@ -106,9 +106,15 @@ body {
     width: 100%;
 }
 
-/* NavBar */
-#navbar-habiqo {
+/* NavBar*/
+.navbar-toggler {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
+.ul.nav a:hover, ul.nav a:focus, ul.nav a.active {
+    background-color: transparent !important;
 }
 
 .navbar {
@@ -123,10 +129,6 @@ body {
         margin-right: 200px;
         font-weight: bold;
     }
-}
-
-.ul.nav a:hover, ul.nav a:focus, ul.nav a.active {
-    background-color: transparent !important;
 }
 
 /* Main div */
@@ -236,7 +238,7 @@ body {
 }
 
 @media (max-width: 992px) {
-    .video-container  {
+    .video-container {
         align-self: center;
         width: 100%;
         height: 400px;
@@ -312,21 +314,17 @@ body {
 .contact-container, .contact-video-container, .contact-form-container {
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
-.contact-container {
-    /* Remove the navbar height*/
-    height: calc(100vh - 55px);
-}
+/*.contact-container {*/
+/*min-height: 100vh;*/
+/*height: auto;*/
+/*}*/
 
 .contact-video-container {
     overflow: hidden;
-    height: 100%;
-}
-
-.contact-form-container {
-    height: 100%;
-    background-color: black;
+    height: calc(100vh - 55px);
 }
 
 /* Large devices: set a specific width / auto height and translate -50% to center the video */
@@ -356,16 +354,38 @@ body {
 
 /* Small devices: center the video */
 /*@media (min-width: 576px) and (max-width: 992px) {*/
-    /*.contact-container {*/
-        /*height: auto;*/
-        /*width: 100vh;*/
-    /*}*/
-    /*.contact-video-container > video {*/
-        /*width: 100% !important;*/
-        /*height: auto !important;*/
-    /*}*/
+/*.contact-container {*/
+/*height: auto;*/
+/*width: 100vh;*/
+/*}*/
+/*.contact-video-container > video {*/
+/*width: 100% !important;*/
+/*height: auto !important;*/
+/*}*/
 
 /*}*/
+
+.contact-form-container {
+    height: calc(100vh - 55px);
+    color: white;
+}
+
+.contact-form {
+    padding: 100px;
+}
+
+.contact-form > h2 {
+    margin-bottom: 50px;
+}
+
+.form-control,
+.form-control:focus {
+    background-color: transparent;
+}
+
+.message-textarea {
+    margin-top: 25px;
+}
 
 /* Footer */
 #habiqo-footer {

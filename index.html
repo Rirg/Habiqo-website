@@ -12,6 +12,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
     <link rel="stylesheet" href="css/hover.css">
 
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-habiqo" data-offset="65">
@@ -35,12 +36,12 @@
         </div>
     </progress>
     <a class="navbar-brand" href="#">HABIQO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto nav nav-pills">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav">
             <li class="nav-item">
                 <a class="nav-link" href="#about-us">Quienes somos <span class="sr-only">(current)</span></a>
             </li>
@@ -173,9 +174,10 @@
     </div>
 
     <!-- Contact us  -->
-    <div id="contact" class="contact-container row">
-        <div class="col-lg contact-video-container">
-            <!-- Your first column here -->
+    <div id="contact" class="contact-container section-container row">
+        <div class="col-lg-6 contact-video-container">
+            <!-- Video -->
+            <!-- TODO download video and keep it local-->
             <video autoplay loop muted>
                 <source src="https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-transcode.mp4"
                         type="video/mp4">
@@ -183,18 +185,35 @@
                         type="video/webm">
             </video>
         </div>
-        <div class="col-lg contact-form-container">
-            <!-- Your second column here -->
+        <div class="col-lg-6 contact-form-container">
+            <!-- Contact Form -->
+            <form class="contact-form container">
+                <p>LET'S WORK TOGETHER</p>
+                <h2>Contactenos</h2>
+                <div class="row">
+                    <div class="col form-group col-lg-6">
+                        <input type="text" class="form-control" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input type="email" class="form-control" placeholder="Enter your email">
+                    </div>
+                </div>
+                <div class="row message-textarea">
+                    <div class="col">
+                        <textarea class="form-control" placeholder="Enter your message..."
+                                  id="exampleFormControlTextarea1" rows="7"></textarea>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-
 </div>
 
 <!-- Footer -->
 <footer id="habiqo-footer">
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 logo">
+            <div class="col-sm-2 logo">
                 <ul>
                     <!-- TODO add logo-->
                 </ul>
@@ -206,7 +225,7 @@
             <div class="col-sm-2 info">
 
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-4">
                 <ul>
                     <li><a href="#">Terms & Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
@@ -230,7 +249,6 @@
         crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-
 <script>
     // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
     // in the first div
