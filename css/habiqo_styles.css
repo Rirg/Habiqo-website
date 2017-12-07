@@ -97,7 +97,6 @@ progress::-webkit-progress-bar {
     display: block;
     height: inherit;
 }
-
 /*end progress bar*/
 
 body {
@@ -106,7 +105,7 @@ body {
     width: 100%;
 }
 
-/* NavBar*/
+/*NavBar*/
 .navbar-toggler {
     border: 0;
     -webkit-box-shadow: none;
@@ -119,6 +118,51 @@ body {
 
 .navbar {
     background: #E9ECEF !important;
+}
+
+.nav-toggle {
+    position: relative;
+    padding: 10px;
+    background: transparent;
+}
+
+.nav-toggle:focus {
+    outline-width: 0;
+}
+
+.nav-toggle [class*='bar-'] {
+    background: black;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .2s ease all;
+    transition: .2s ease all;
+    border-radius: 2px;
+    height: 2px;
+    width: 25px;
+    margin-bottom: 4px;
+}
+
+.nav-toggle .bar-bot {
+    margin-bottom: 0;
+}
+
+.opened .bar-top {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+    transform-origin: 15% 15%;
+}
+
+.opened .bar-mid {
+    opacity: 0;
+}
+
+.opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+    transform-origin: 15% 95%;
 }
 
 /* TODO add a breakpoint for this margins just with lg or xl*/
@@ -147,7 +191,7 @@ body {
 .purpose-text {
     position: absolute;
     bottom: 104px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-right: 50px;
     max-width: 477px;
     font-size: 42px;
@@ -162,7 +206,7 @@ body {
     font-size: 16px;
     text-align: left;
     bottom: 104px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-right: 50px;
     color: #f6f8f9;
     text-decoration: none;

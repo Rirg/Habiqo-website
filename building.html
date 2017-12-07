@@ -19,7 +19,7 @@
 
 <!-- Welcome div -->
 <div class="main-div-container">
-    <div class="container">
+    <div>
         <p class="purpose-text">Nuestro objetivo es superar los estándares de tiempo, costo, calidad y
             sostenibilidad.</p>
         <a id="learn-more-link" class="hvr-icon-forward" href="#">Aprende Más</a>
@@ -36,9 +36,11 @@
         </div>
     </progress>
     <a class="navbar-brand" href="#">HABIQO</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <button class="nav-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+        <span class="bar-top"></span>
+        <span class="bar-mid"></span>
+        <span class="bar-bot"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav">
@@ -250,6 +252,13 @@
 <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 <script>
+    (function () {
+        var toggle = document.querySelector('.nav-toggle');
+
+        toggle.addEventListener('click', function(e) {
+            this.classList.toggle('opened');
+        });
+    })();
     // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
     // in the first div
     var getMax = function () {
