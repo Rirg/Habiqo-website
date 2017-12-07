@@ -15,17 +15,17 @@
 
 </head>
 
+
 <body data-spy="scroll" data-target="#navbar-habiqo" data-offset="65">
 
 <!-- Welcome div -->
 <div class="main-div-container">
-    <div>
+    <div class="container">
         <p class="purpose-text">Nuestro objetivo es superar los estándares de tiempo, costo, calidad y
             sostenibilidad.</p>
         <a id="learn-more-link" class="hvr-icon-forward" href="#">Aprende Más</a>
     </div>
 </div>
-
 
 <!--Navbar -->
 <nav id="navbar-habiqo" class="navbar navbar-expand-md navbar-light bg-light sticky-top">
@@ -36,12 +36,6 @@
         </div>
     </progress>
     <a class="navbar-brand" href="#">HABIQO</a>
-    <button class="nav-toggle navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="bar-top"></span>
-        <span class="bar-mid"></span>
-        <span class="bar-bot"></span>
-    </button>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav">
             <li class="nav-item">
@@ -148,19 +142,21 @@
     </div>
 
     <!-- Our technology -->
-    <div id="our-technology" class="our-technology-container section-container">
-        <div class="section-container row">
-            <!--<div class="col-sm-7">-->
-            <!--<img id="our-technology-image" src="images/about_us_image.jpg" alt="">-->
-            <!--</div>-->
-            <!--<div class="col-sm-5">-->
-            <!--<p id="our-technology-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi-->
-            <!--consequuntur dolorem enim in-->
-            <!--laboriosam nobis quo quod vero vitae. Est ipsam molestias odit pariatur quas, quia rerum? Dolorum-->
-            <!--enim, ipsam!</p>-->
-            <!--</div>-->
-
+    <div id="our-technology" class="our-technology-container section-container row">
+        <div class="col-lg-6  our-tech-img-container"></div>
+        <div class="col-lg-6 our-tech-text-container">
+            <div class="our-tech-text-wrapper container">
+                <p class="our-tech-subheading">SUB-HEADING HERE</p>
+                <h3>Nuestra Tecnología</h3>
+                <p>La tecnología de construcción de Habiqo ofrece una alternativa innovadora y tecnológica para la
+                    construcción de proyectos. Nuestro sistema acelera la construcción hasta en un 50%, minimizando el
+                    desperdicio de materiales y energía, mientras maximiza la calidad y la seguridad. Mezclamos lo mejor
+                    de la tecnología, procesos y personal de fabricación y construcción con las capacidades de
+                    auto-rendimiento de Habiqo para ofrecer a nuestros clientes una solución de construcción
+                    integral.</p>
+            </div>
         </div>
+
     </div>
 
     <!-- Projects  -->
@@ -252,13 +248,6 @@
 <script src="js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
 <script>
-    (function () {
-        var toggle = document.querySelector('.nav-toggle');
-
-        toggle.addEventListener('click', function(e) {
-            this.classList.toggle('opened');
-        });
-    })();
     // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
     // in the first div
     var getMax = function () {
