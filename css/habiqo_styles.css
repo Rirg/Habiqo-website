@@ -10,8 +10,6 @@
 
 body {
     font-family: "UniversLTStd", serif;
-    height: 100%;
-    width: 100%;
     background-color: #E9ECEF;
 }
 
@@ -131,7 +129,7 @@ progress::-webkit-progress-bar {
 /* MAIN DIV */
 .main-div-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     background: url("../images/background_top.jpg") no-repeat center;
     -webkit-background-size: cover;
@@ -181,7 +179,7 @@ progress::-webkit-progress-bar {
 .section-container {
     min-height: 100vh;
     height: auto;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -193,6 +191,7 @@ progress::-webkit-progress-bar {
 
 .sections-container {
     position: relative;
+    width: 100%;
 }
 
 /* end containers*/
@@ -280,7 +279,6 @@ progress::-webkit-progress-bar {
 }
 
 #content-video-container > #paragraph {
-    font-family: UniversLTStd;
     font-size: 35px;
     line-height: 1.11;
     letter-spacing: -0.2px;
@@ -316,6 +314,7 @@ progress::-webkit-progress-bar {
     background-color: white;
     padding: 130px 174px;
     overflow: hidden;
+    width: 100%;
 }
 
 .our-system-subheading {
@@ -355,6 +354,7 @@ progress::-webkit-progress-bar {
 /* Our technology */
 .our-technology-container {
     background-color: #E9ECEF;
+    width: 100%;
 }
 
 .our-tech-subheading {
@@ -401,11 +401,10 @@ progress::-webkit-progress-bar {
 
 /* Our projects */
 .projects-container {
-    min-height: 200vh;
+    min-height: 170vh;
     height: auto;
-    width: 100vw;
-    overflow: hidden;
-    background: white;
+    width: 100%;
+    background: #E9ECEF;
 }
 
 .projects-image-container {
@@ -425,9 +424,16 @@ progress::-webkit-progress-bar {
     text-align: center;
 }
 
+.projects-images-options-container > .row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 .projects-images-options-container > .row > .col-lg-3 {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .projects-images-options-container > .row > .col-lg-3 > span {
@@ -436,14 +442,17 @@ progress::-webkit-progress-bar {
     color: #161616;
 }
 
+
+
 .projects-opt-images {
     padding-top: 16px;
-    height: 80%;
+    height: 150px;
     width: 100%;
 }
 
 .projects-last-container {
-    margin-top: 224px;
+    position: relative;
+    top: 250px;
 }
 
 .projects-last-container > span {
@@ -489,8 +498,14 @@ progress::-webkit-progress-bar {
     }
 
     .projects-last-images {
-        width: 100vw;
+        width: 100%;
         height: 375px;
+    }
+
+    .projects-opt-images {
+        min-height: 150px;
+        height: auto;
+        width: 100%;
     }
 }
 
@@ -539,12 +554,12 @@ progress::-webkit-progress-bar {
 /* Team */
 .team-container {
     padding-bottom: 145px;
-    padding-left: 50px;
-    padding-right: 70px;
+    background-color: white;
+    width: 100%;
 }
 
 .team-container > .section-subheading {
-    margin-top: 182px;
+    margin-top: 350px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -618,6 +633,15 @@ progress::-webkit-progress-bar {
     padding-left: 10px;
     text-decoration: none;
     color: white;
+}
+
+@media (min-width: 992px) {
+    .team-container {
+        padding-bottom: 145px;
+        padding-left: 200px;
+        padding-right: 200px;
+        background-color: white;
+    }
 }
 
 /* for big screens add more margin to the right  */
