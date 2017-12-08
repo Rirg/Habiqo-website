@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/animsition.css" afterPath="" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
-      <change beforePath="$PROJECT_DIR$/js/animsition.min.js" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1804">
-                  <caret line="51" column="50" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="50" />
+                <state relative-caret-position="346">
+                  <caret line="262" column="93" lean-forward="false" selection-start-line="262" selection-start-column="93" selection-end-line="262" selection-end-column="93" />
                   <folding />
                 </state>
               </provider>
@@ -60,8 +58,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="546">
-                  <caret line="123" column="23" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+                <state relative-caret-position="547">
+                  <caret line="643" column="13" lean-forward="false" selection-start-line="643" selection-start-column="13" selection-end-line="643" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -101,7 +99,6 @@
       <find>tea</find>
       <find>Making</find>
       <find>our s</find>
-      <find>contact</find>
       <find>our-sys</find>
       <find>our</find>
       <find>footer</find>
@@ -110,6 +107,7 @@
       <find>tean</find>
       <find>project</find>
       <find>nav</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -322,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135105000" />
+    <option name="totallyTimeSpent" value="135909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="123" column="23" lean-forward="false" selection-start-line="123" selection-start-column="23" selection-end-line="123" selection-end-column="23" />
+        <state relative-caret-position="547">
+          <caret line="643" column="13" lean-forward="false" selection-start-line="643" selection-start-column="13" selection-end-line="643" selection-end-column="13" />
           <folding />
         </state>
       </provider>

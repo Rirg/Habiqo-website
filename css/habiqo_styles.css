@@ -627,13 +627,27 @@ progress::-webkit-progress-bar {
     padding: 100px;
 }
 
+.contact-form > p {
+    margin-bottom: 30px;
+    color: #787e81;
+}
+
 .contact-form > h2 {
     margin-bottom: 50px;
+    font-size: 35px;
+    line-height: 1.11;
+    letter-spacing: -0.2px;
+    text-align: left;
+}
+
+.form-group > input {
+    height: 50px;
 }
 
 .form-control,
 .form-control:focus {
     background-color: transparent;
+    border-radius: 0;
 }
 
 .message-textarea {
