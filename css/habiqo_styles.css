@@ -514,7 +514,6 @@ progress::-webkit-progress-bar {
 
 .projects-last-container > .row > .col-lg-4:hover .overlay {
     width: calc(100% - 10px);
-
 }
 
 .text {
@@ -643,10 +642,17 @@ progress::-webkit-progress-bar {
 .message-textarea {
     margin-top: 10px;
 }
+
+.message-textarea > .col > a {
+    text-decoration: none;
+    color: white;
+    margin-top: 36px;
+    padding-right: 40px;
+}
 /* end contact*/
 
 /* Footer */
-#habiqo-footer {
+.habiqo-footer {
     margin-top: 50px;
     background-color: white;
     color: white;
@@ -656,33 +662,33 @@ progress::-webkit-progress-bar {
     word-wrap: break-word;
 }
 
-#habiqo-footer .row {
+.habiqo-footer .row {
     margin-bottom: 60px;
 }
 
-#habiqo-footer .info {
+.habiqo-footer .info {
     text-align: justify;
     color: #afb0b1;
 }
 
-#habiqo-footer ul {
+.habiqo-footer ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
 }
 
-#habiqo-footer h5 {
+.habiqo-footer h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
 }
 
-#habiqo-footer .logo {
+.habiqo-footer .logo {
     margin-top: 10px;
 }
 
-#habiqo-footer .second-bar .logo a {
+.habiqo-footer .second-bar .logo a {
     color: white;
     font-size: 28px;
     float: left;
@@ -692,23 +698,30 @@ progress::-webkit-progress-bar {
     padding: 0;
 }
 
-#habiqo-footer a {
+.habiqo-footer a {
     color: #d2d1d1;
     text-decoration: none;
 }
 
-#habiqo-footer a:hover,
-#habiqo-footer a:focus {
+.habiqo-footer a:hover,
+.habiqo-footer a:focus {
     text-decoration: none;
     color: black;
 }
 
+.logo > ul > img {
+    width: 117px;
+    height: 63px;
+    margin-right: 78px;
+}
+
+
 @media screen and (max-width: 767px) {
-    #habiqo-footer {
+    .habiqo-footer {
         text-align: center;
     }
 
-    #habiqo-footer .info {
+    .habiqo-footer .info {
         text-align: center;
     }
 }
