@@ -1,11 +1,3 @@
-/*
-html {
-    background: url("../images/under.gif") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}*/
 @font-face {
     font-family: "UniversLTStd";
     src: url("../fonts/Univers/UniversLTStd.otf");
@@ -15,6 +7,34 @@ html {
     font-family: "UniversLTStd Black";
     src: url("../fonts/Univers/UniversBlack.ttf");
 }
+
+body {
+    font-family: "UniversLTStd", serif;
+    height: 100%;
+    width: 100%;
+}
+
+/* FADE-IN ANIMATION */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 0; /* make things invisible upon start */
+    animation: fadeIn ease-in 1; /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+
+    animation-fill-mode: forwards; /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+
+    animation-duration: 1s;
+    animation-delay: 1.5s
+}
+
+/* end fade-in animation*/
 
 /* Progress bar */
 *, *::after, *::before {
@@ -100,12 +120,6 @@ progress::-webkit-progress-bar {
 
 /*end progress bar*/
 
-body {
-    font-family: "UniversLTStd", serif;
-    height: 100%;
-    width: 100%;
-}
-
 /*NavBar*/
 
 .ul.nav a:hover, ul.nav a:focus, ul.nav a.active {
@@ -117,8 +131,6 @@ body {
     background: transparent !important;
 }
 
-/* TODO add a breakpoint for this margins just with lg or xl*/
-/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     .navbar-brand {
         margin-left: 139px;
@@ -126,6 +138,8 @@ body {
         font-weight: bold;
     }
 }
+
+/* end navbar*/
 
 /* MAIN DIV */
 .main-div-container {
@@ -174,6 +188,8 @@ body {
     padding-right: 40px;
 }
 
+/* end main div*/
+
 /* CONTAINERS */
 .section-container {
     min-height: 100vh;
@@ -192,7 +208,9 @@ body {
     position: relative;
 }
 
-/* About us */
+/* end containers*/
+
+/* ABOUT US */
 .about-us-container {
     background-color: #E9ECEF;
     padding: 46px 0 0;
@@ -263,7 +281,6 @@ body {
     }
 }
 
-
 #content-video-container > a > img {
     float: top;
     width: 60px;
@@ -305,24 +322,18 @@ body {
     }
 }
 
-/*@media (max-width: 1200px) {*/
-/*#content-video-container > p {*/
-/*max-width: 375px;*/
-/*width: auto;*/
-/*}*/
+/* end about us*/
 
-/*#content-video-container > #paragraph {*/
-/*max-width: 375px;*/
-/*width: auto;*/
-/*}*/
-/*}*/
-
-/* Our system */
+/* OUR SYSTEM */
 .our-system-container {
     background-color: white;
     padding-top: 130px;
     padding-bottom: 130px;
     overflow: hidden;
+}
+
+.our-system-subheading {
+    text-align: center;
 }
 
 .card {
@@ -345,6 +356,8 @@ body {
     color: #787e81;
     text-align: center;
 }
+
+/* end our system */
 
 /*TODO get rid of the small white space at the right of this section*/
 /* Our technology */
@@ -392,6 +405,8 @@ body {
     }
 }
 
+/* end our technology*/
+
 /* Our projects */
 .projects-container {
     min-height: 200vh;
@@ -417,13 +432,6 @@ body {
     padding: 0;
     text-align: center;
 }
-
-/*@media (min-width: 768px) {*/
-/*.projects-image-container {*/
-/*height: auto;*/
-/*min-height: ;*/
-/*}*/
-/*}*/
 
 .projects-images-options-container > .row > .col-lg-3 {
     margin: 0;
@@ -483,6 +491,7 @@ body {
         width: 100%;
         overflow: hidden;
     }
+
     .projects-last-images {
         width: 100vw;
         height: 375px;
@@ -532,6 +541,7 @@ body {
     color: white;
     text-decoration: none;
 }
+
 /* end projects*/
 
 /* Team */
@@ -572,6 +582,7 @@ body {
     }
 
 }
+
 /* end team*/
 
 /* CONTACT */
@@ -580,11 +591,6 @@ body {
     margin: 0;
     background-color: black;
 }
-
-/*.contact-container {*/
-/*min-height: 100vh;*/
-/*height: auto;*/
-/*}*/
 
 .contact-video-container {
     overflow: hidden;
@@ -616,19 +622,6 @@ body {
     }
 }
 
-/* Small devices: center the video */
-/*@media (min-width: 576px) and (max-width: 992px) {*/
-/*.contact-container {*/
-/*height: auto;*/
-/*width: 100vh;*/
-/*}*/
-/*.contact-video-container > video {*/
-/*width: 100% !important;*/
-/*height: auto !important;*/
-/*}*/
-
-/*}*/
-
 .contact-form-container {
     height: calc(100vh - 55px);
     color: white;
@@ -650,6 +643,7 @@ body {
 .message-textarea {
     margin-top: 10px;
 }
+/* end contact*/
 
 /* Footer */
 #habiqo-footer {
@@ -718,3 +712,4 @@ body {
         text-align: center;
     }
 }
+/* end footer*/
