@@ -119,6 +119,13 @@ progress::-webkit-progress-bar {
     }
 }
 
+@media (max-width: 992px) {
+    .navbar-brand {
+        margin-left: 30px;
+        font-weight: bold;
+    }
+}
+
 /* end navbar*/
 
 /* MAIN DIV */
@@ -467,6 +474,10 @@ progress::-webkit-progress-bar {
 }
 
 @media (max-width: 992px) {
+    .projects-last-container > .row > .col-lg-4 {
+        margin-bottom: 50px;
+    }
+
     .projects-last-container > a {
         left: 20px;
         margin-bottom: 15px;
@@ -563,6 +574,7 @@ progress::-webkit-progress-bar {
     .team-container > .row > .col-lg-4 > img {
         width: 100%;
         height: 100%;
+        padding-bottom: 50px;
     }
 
 }
