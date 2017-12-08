@@ -12,6 +12,7 @@ body {
     font-family: "UniversLTStd", serif;
     height: 100%;
     width: 100%;
+    background-color: #E9ECEF;
 }
 
 
@@ -306,8 +307,7 @@ progress::-webkit-progress-bar {
 /* OUR SYSTEM */
 .our-system-container {
     background-color: white;
-    padding-top: 130px;
-    padding-bottom: 130px;
+    padding: 130px 174px;
     overflow: hidden;
 }
 
@@ -334,6 +334,12 @@ progress::-webkit-progress-bar {
     line-height: 1.5;
     color: #787e81;
     text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .our-system-container {
+        padding: 50px 50px;
+    }
 }
 
 /* end our system */
@@ -632,9 +638,10 @@ progress::-webkit-progress-bar {
 
 /* Footer */
 .habiqo-footer {
-    margin-top: 50px;
+    padding-top: 50px;
     background-color: white;
     color: white;
+    height: 100%;
 }
 
 #footer-email {
@@ -695,13 +702,35 @@ progress::-webkit-progress-bar {
 }
 
 
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
+    .habiqo-footer  .logo {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .habiqo-footer > .container > .row >  .logo  >  ul > img {
+        position: absolute;
+        width: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
     .habiqo-footer {
         text-align: center;
     }
 
     .habiqo-footer .info {
         text-align: center;
+    }
+
+    .habiqo-footer {
+        background-color: white;
+        color: white;
+    }
+
+    .contact-form {
+        padding: 40px;
     }
 }
 /* end footer*/
