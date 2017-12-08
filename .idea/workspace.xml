@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +32,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="346">
-                  <caret line="262" column="93" lean-forward="false" selection-start-line="262" selection-start-column="93" selection-end-line="262" selection-end-column="93" />
+                <state relative-caret-position="405">
+                  <caret line="235" column="21" lean-forward="true" selection-start-line="235" selection-start-column="21" selection-end-line="235" selection-end-column="22" />
                   <folding />
                 </state>
               </provider>
@@ -49,7 +49,7 @@
                 <state relative-caret-position="184">
                   <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
                   <folding>
-                    <marker date="1512744858000" expanded="true" signature="19209:19217" ph="..." />
+                    <marker date="1512751469000" expanded="true" signature="19813:19821" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -58,8 +58,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="547">
-                  <caret line="643" column="13" lean-forward="false" selection-start-line="643" selection-start-column="13" selection-end-line="643" selection-end-column="13" />
+                <state relative-caret-position="315">
+                  <caret line="571" column="29" lean-forward="false" selection-start-line="571" selection-start-column="29" selection-end-line="571" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -78,8 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>learn</find>
-      <find>body</find>
       <find>main</find>
       <find>relative</find>
       <find>video</find>
@@ -94,7 +92,6 @@
       <find>width: 100%;</find>
       <find>ver</find>
       <find>aprende</find>
-      <find>team</find>
       <find>container</find>
       <find>tea</find>
       <find>Making</find>
@@ -108,6 +105,9 @@
       <find>project</find>
       <find>nav</find>
       <find>contact</find>
+      <find>team</find>
+      <find>Team</find>
+      <find>background-color: #1c7430;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -320,7 +320,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135909000" />
+    <option name="totallyTimeSpent" value="139744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,7 +529,7 @@
         <state relative-caret-position="14">
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="62" />
           <folding>
-            <marker date="1512744858000" expanded="true" signature="19209:19217" ph="..." />
+            <marker date="1512751469000" expanded="true" signature="19813:19821" ph="..." />
           </folding>
         </state>
       </provider>
@@ -640,7 +640,7 @@
         <state relative-caret-position="592">
           <caret line="262" column="42" lean-forward="false" selection-start-line="262" selection-start-column="42" selection-end-line="262" selection-end-column="42" />
           <folding>
-            <marker date="1512744858000" expanded="true" signature="19209:19217" ph="..." />
+            <marker date="1512751469000" expanded="true" signature="19813:19821" ph="..." />
           </folding>
         </state>
       </provider>
@@ -760,15 +760,15 @@
         <state relative-caret-position="184">
           <caret line="76" column="39" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
           <folding>
-            <marker date="1512744858000" expanded="true" signature="19209:19217" ph="..." />
+            <marker date="1512751469000" expanded="true" signature="19813:19821" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="643" column="13" lean-forward="false" selection-start-line="643" selection-start-column="13" selection-end-line="643" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="571" column="29" lean-forward="false" selection-start-line="571" selection-start-column="29" selection-end-line="571" selection-end-column="29" />
           <folding />
         </state>
       </provider>
