@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
-      <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
-      <change beforePath="$PROJECT_DIR$/images/background_top.jpg" afterPath="$PROJECT_DIR$/images/background_top.jpg" />
-    </list>
+    <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -320,7 +315,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153388000" />
+    <option name="totallyTimeSpent" value="153420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
