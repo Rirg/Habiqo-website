@@ -146,7 +146,7 @@ progress::-webkit-progress-bar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    top: 50%;
+    top: 43%;
     transform: translate(0, -50%);
 }
 
@@ -157,6 +157,7 @@ progress::-webkit-progress-bar {
     max-width: 477px;
     font-size: 42px;
     text-align: left;
+    color: #f6f8f9;
     padding-bottom: 40px;
     line-height: 1.1;
     letter-spacing: -0.5px;
@@ -192,6 +193,25 @@ progress::-webkit-progress-bar {
 .sections-container {
     position: relative;
     width: 100%;
+}
+
+@media (min-width: 992px) {
+    .main-div-container > div {
+        margin-left: 137px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-div-container > div {
+        margin-left: 50px;
+    }
+}
+
+/* Small devices move the logo up*/
+@media (max-width: 576px){
+    .main-div-container > img {
+        top: 20%;
+    }
 }
 
 /* end containers*/
