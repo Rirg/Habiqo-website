@@ -30,14 +30,14 @@
 
 
 <!--Navbar -->
-<nav id="navbar-habiqo" class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
+<nav id="navbar-habiqo" class="navbar navbar-expand-xl navbar-light bg-light sticky-top justify-content-center">
     <!-- Progress bar -->
     <progress value="0" id="progressBar">
         <div class="progress-container">
             <span class="progress-bar"></span>
         </div>
     </progress>
-    <a class="navbar-brand" href="#"><img src="images/assets/nav_logo.svg" alt="Habiqo Logo"></a>
+    <a class="navbar-brand " href="#"><img src="images/assets/nav_logo.svg" alt="Habiqo Logo"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav">
             <li class="nav-item">
@@ -171,28 +171,28 @@
         <div class="projects-image-container place-in-front"></div>
         <div class="projects-images-options-container place-in-front">
             <div class="row">
-                <div class="col-lg-3" data-aos="flip-up">
+                <div class="col-lg-3 col-6" data-aos="flip-up">
                     <span>Opción 1</span>
                     <img class="projects-opt-images" src="images/projects-image-opt1.jpg" alt="">
                     <div class="fade-overlay">
                         <span>List of materials</span>
                     </div>
                 </div>
-                <div class="col-lg-3" data-aos="flip-up" data-aos-offset="200">
+                <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="200">
                     <span>Opción 2</span>
                     <img class="projects-opt-images" src="images/projects-image-opt2.jpg" alt="">
                     <div class="fade-overlay">
                         <span>Some text</span>
                     </div>
                 </div>
-                <div class="col-lg-3" data-aos="flip-up" data-aos-offset="300">
+                <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="300">
                     <span>Opción 3</span>
                     <img class="projects-opt-images" src="images/projects-image-opt3.jpg" alt="">
                     <div class="fade-overlay">
                         <span>Some text</span>
                     </div>
                 </div>
-                <div class="col-lg-3" data-aos="flip-up" data-aos-offset="400">
+                <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="400">
                     <span>Opción 4</span>
                     <img class="projects-opt-images" src="images/projects-image-opt4.jpg" alt="">
                     <div class="fade-overlay">
@@ -204,7 +204,7 @@
         <div class="projects-last-container container">
             <span>Últimos proyectos</span>
             <a class="hvr-icon-forward" href="#">Ver todos los proyectos</a>
-            <div class="row place-in-front">
+            <div class="row place-in-front" id="last-projects-images-container">
                 <div class="col-lg-4" data-aos="fade">
                     <img class="projects-last-images" src="images/projects_last_1.jpg" alt="">
                     <div class="overlay">
@@ -239,9 +239,10 @@
 
     <!-- Team  -->
     <div id="team" class="team-container section-container">
-        <div class="section-subheading">
-            <p class="place-in-front" id="team-subheading">EQUIPO</p>
-            <img class="sticky-logo" src="images/assets/logo1.svg"/>
+        <img class="sticky-logo" src="images/assets/logo1.svg"/>
+        <img class="static-logo" src="images/assets/logo6.svg"/>
+        <div class="section-subheading" id="team-subheading">
+            <p class="place-in-front">EQUIPO</p>
         </div>
         <p class="meet-our-team place-in-front">Conozca nuestro gran equipo</p>
         <div class="row">
@@ -386,23 +387,24 @@
             fixedLogo.attr('src', 'images/assets/logo4.svg');
         }
 
-        if (collision(fixedLogo, $('.team-container'))) {
+        if (collision(fixedLogo, $('.projects-opt-images'))) {
             fixedLogo.attr('src', 'images/assets/logo5.svg');
         }
 
-        if (collision(fixedLogo, $('.team-container'))) {
+
+        if (collision(fixedLogo, $('#last-projects-images-container'))) {
             fixedLogo.attr('src', 'images/assets/logo6.svg');
-            fixedLogo.attr('data-aos', 'fade');
         }
 
-        if (collision(fixedLogo, $('#team-subheading'))) {
-            fixedLogo.css('position', 'static');
-            fixedLogo.css('top', '100px');
+        if (collision(fixedLogo, $('.meet-our-team'))) {
+            fixedLogo.css('position', 'relative');
+            fixedLogo.css('top', '330px');
         }
     });
 
 
     function collision($div1, $div2) {
+
         var x1 = $div1.offset().left;
         var y1 = $div1.offset().top;
         var h1 = $div1.outerHeight(true);
@@ -418,6 +420,7 @@
 
         return !(b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2);
     }
+
 
     // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
     // in the first div

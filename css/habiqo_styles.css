@@ -109,7 +109,7 @@ progress::-webkit-progress-bar {
     background: #E9ECEF !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .navbar-brand {
         margin-left: 139px;
         margin-right: 273px;
@@ -119,7 +119,6 @@ progress::-webkit-progress-bar {
 
 @media (max-width: 992px) {
     .navbar-brand {
-        margin-left: 30px;
         font-weight: bold;
     }
 }
@@ -634,11 +633,20 @@ progress::-webkit-progress-bar {
     background-color: white;
     width: 100%;
 }
+
 /* Sticky logo */
 .sticky-logo {
     position: fixed;
     top: 50%;
     left: calc(50% - 60px);
+    z-index: 2;
+}
+
+.static-logo {
+    position: relative;
+    top: 330px;
+    left: calc(50% - 175px);
+    visibility: hidden;
     z-index: 2;
 }
 
@@ -649,7 +657,7 @@ progress::-webkit-progress-bar {
 
 
 .team-container > .section-subheading {
-    margin-top: 350px;
+    margin-top: 250px;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -855,6 +863,10 @@ progress::-webkit-progress-bar {
     color: white;
     margin-top: 36px;
     padding-right: 40px;
+}
+
+.message-textarea > .col > .form-control {
+    resize: none;
 }
 
 /* end contact*/
