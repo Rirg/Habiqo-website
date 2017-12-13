@@ -19,17 +19,18 @@
 <body data-spy="scroll" data-target="#navbar-habiqo" data-offset="65">
 
 <!-- Welcome div -->
-<div class="main-div-container">
-    <img src="images/assets/hero_logo.svg" alt="">
+<div class="main-div-container place-in-front">
     <div>
+        <img src="images/assets/logo6.svg" data-spy="affix" alt="">
         <p class="purpose-text">Nuestro objetivo es superar los estándares de tiempo, costo, calidad y
             sostenibilidad.</p>
         <a id="learn-more-link" class="hvr-icon-forward" href="#">Aprende Más</a>
     </div>
 </div>
 
+
 <!--Navbar -->
-<nav id="navbar-habiqo" class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav id="navbar-habiqo" class="navbar navbar-expand-xl navbar-light bg-light sticky-top">
     <!-- Progress bar -->
     <progress value="0" id="progressBar">
         <div class="progress-container">
@@ -64,7 +65,7 @@
 <div class="sections-container">
     <!-- About us -->
     <div id="about-us" class="about-us-container">
-        <div class="container" data-aos="fade">
+        <div class="container place-in-front" data-aos="fade">
             <p class="section-subheading about-us-subheading">TAKING ECUADOR BY STORM</p>
             <p class="about-us-paragraph">Something written here that talks about who Habiqo us and
                 what
@@ -88,9 +89,9 @@
     <!-- Our system -->
     <div id="our-system" class="our-system-container section-container">
 
-        <p class="section-subheading our-system-subheading">MAKING HOMES BEAUTIFUL</p>
+        <p class="section-subheading our-system-subheading place-in-front">MAKING HOMES BEAUTIFUL</p>
 
-        <div class="card-deck">
+        <div class="card-deck place-in-front">
             <div class="card" data-aos="fade">
                 <img class="card-img-top" src="images/habiqo_home/methodology-process.svg"
                      alt="Diseño e ingeniería">
@@ -118,7 +119,7 @@
             </div>
         </div>
 
-        <div class="card-deck">
+        <div class="card-deck place-in-front">
             <div class="card" data-aos="fade">
                 <img class="card-img-top" src="images/habiqo_home/cell-nucleus.svg" alt="Card image cap">
                 <div class="card-body">
@@ -149,8 +150,8 @@
 
     <!-- Our technology -->
     <div id="our-technology" class="our-technology-container section-container row">
-        <div class="col-lg-6  our-tech-img-container" data-aos="fade-right"></div>
-        <div class="col-lg-6 our-tech-text-container" data-aos="fade-left">
+        <div class="col-lg-6  our-tech-img-container place-in-front" data-aos="fade-right"></div>
+        <div class="col-lg-6 our-tech-text-container place-in-front" data-aos="fade-left">
             <div class="our-tech-text-wrapper">
                 <p class="our-tech-subheading">SUB-HEADING HERE</p>
                 <h3>Nuestra Tecnología</h3>
@@ -167,8 +168,8 @@
 
     <!-- Projects  -->
     <div id="projects" class="projects-container">
-        <div class="projects-image-container"></div>
-        <div class="projects-images-options-container">
+        <div class="projects-image-container place-in-front"></div>
+        <div class="projects-images-options-container place-in-front">
             <div class="row">
                 <div class="col-lg-3" data-aos="flip-up">
                     <span>Opción 1</span>
@@ -203,8 +204,8 @@
         <div class="projects-last-container container">
             <span>Últimos proyectos</span>
             <a class="hvr-icon-forward" href="#">Ver todos los proyectos</a>
-            <div class="row">
-                <div class="col-lg-4" data-aos="slide-right">
+            <div class="row place-in-front">
+                <div class="col-lg-4" data-aos="fade">
                     <img class="projects-last-images" src="images/projects_last_1.jpg" alt="">
                     <div class="overlay">
                         <div class="text">
@@ -213,7 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="slide-right" data-aos-offset="200">
+                <div class="col-lg-4" data-aos="fade" data-aos-offset="200">
                     <img class="projects-last-images" src="images/projects_last_2.jpg" alt="">
                     <div class="overlay">
                         <div class="text">
@@ -222,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4" data-aos="slide-right" data-aos-offset="300">
+                <div class="col-lg-4" data-aos="fade" data-aos-offset="300">
                     <img class="projects-last-images" src="images/projects_last_3.jpg" alt="">
                     <div class="overlay">
                         <div class="text">
@@ -238,8 +239,11 @@
 
     <!-- Team  -->
     <div id="team" class="team-container section-container">
-        <p class="section-subheading">EQUIPO</p>
-        <p class="meet-our-team">Conozca nuestro gran equipo</p>
+        <div class="section-subheading">
+            <p class="place-in-front" id="team-subheading">EQUIPO</p>
+            <img class="sticky-logo" src="images/assets/logo1.svg"/>
+        </div>
+        <p class="meet-our-team place-in-front">Conozca nuestro gran equipo</p>
         <div class="row">
             <div class="col-lg-4" data-aos="slide-up">
                 <img src="images/our_team_image1.jpg" alt="Person 1">
@@ -356,7 +360,65 @@
 <script type="text/javascript" src="js/aos.js"></script>
 
 <script>
+
+    // Initiate
     AOS.init();
+
+
+    var fixedLogo = $('.sticky-logo');
+
+    // TODO center the logo with the "EQUIPO" word
+    $(window).scroll(function () {
+
+        if (collision(fixedLogo, $('.main-div-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo1.svg');
+        }
+
+        if (collision(fixedLogo, $('#content-video-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo2.svg');
+        }
+
+        if (collision(fixedLogo, $('.our-system-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo3.svg');
+        }
+
+        if (collision(fixedLogo, $('.our-technology-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo4.svg');
+        }
+
+        if (collision(fixedLogo, $('.team-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo5.svg');
+        }
+
+        if (collision(fixedLogo, $('.team-container'))) {
+            fixedLogo.attr('src', 'images/assets/logo6.svg');
+            fixedLogo.attr('data-aos', 'fade');
+        }
+
+        if (collision(fixedLogo, $('#team-subheading'))) {
+            fixedLogo.css('position', 'static');
+            fixedLogo.css('top', '100px');
+        }
+    });
+
+
+    function collision($div1, $div2) {
+        var x1 = $div1.offset().left;
+        var y1 = $div1.offset().top;
+        var h1 = $div1.outerHeight(true);
+        var w1 = $div1.outerWidth(true);
+        var b1 = y1 + h1;
+        var r1 = x1 + w1;
+        var x2 = $div2.offset().left;
+        var y2 = $div2.offset().top;
+        var h2 = $div2.outerHeight(true);
+        var w2 = $div2.outerWidth(true);
+        var b2 = y2 + h2;
+        var r2 = x2 + w2;
+
+        return !(b1 < y2 || y1 > b2 || r1 < x2 || x1 > r2);
+    }
+
     // Get the max value subtracting the main-div-container height because we have no interest in showing the progress bar
     // in the first div
     var getMax = function () {

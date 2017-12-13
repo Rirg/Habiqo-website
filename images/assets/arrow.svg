@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Responsive--v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="960-Home" transform="translate(-247.000000, -778.000000)" fill="#F6F8F9">
+            <g id="Hero">
+                <g id="Btn" transform="translate(137.000000, 775.000000)">
+                    <polygon id="arrow" points="117.2915 2.9997375 116.230625 4.0606125 119.135 6.9642375 110 6.9642375 110 8.4646125 119.123 8.4646125 116.230625 11.3569875 117.2915 12.4174875 122.000375 7.7086125"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

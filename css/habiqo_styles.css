@@ -11,8 +11,8 @@
 body {
     font-family: "UniversLTStd", serif;
     background-color: #E9ECEF;
+    z-index: 1;
 }
-
 
 /* Progress bar */
 *, *::after, *::before {
@@ -106,7 +106,7 @@ progress::-webkit-progress-bar {
 
 .navbar {
     margin-top: 30px;
-    background: transparent !important;
+    background: #E9ECEF !important;
 }
 
 @media (min-width: 992px) {
@@ -140,14 +140,13 @@ progress::-webkit-progress-bar {
 }
 
 /* LOGO */
-.main-div-container > img {
-    position: relative;
+.main-div-container > div > img {
+    position: absolute;
     vertical-align: middle;
-    display: block;
-    margin-left: auto;
+    width: 70px;
+    height: 90px;
     margin-right: auto;
-    top: 43%;
-    transform: translate(0, -50%);
+    top: 30%;
 }
 
 .purpose-text {
@@ -174,6 +173,24 @@ progress::-webkit-progress-bar {
     padding-right: 40px;
 }
 
+/* Small devices */
+@media (max-width: 768px) {
+    .main-div-container > div > img {
+        top: 20%;
+    }
+
+    .main-div-container > div {
+        padding: 0;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-div-container > div {
+        margin-left: 137px;
+    }
+}
+
 /* end main div*/
 
 /* CONTAINERS */
@@ -193,25 +210,6 @@ progress::-webkit-progress-bar {
 .sections-container {
     position: relative;
     width: 100%;
-}
-
-@media (min-width: 992px) {
-    .main-div-container > div {
-        margin-left: 137px;
-    }
-}
-
-@media (max-width: 992px) {
-    .main-div-container > div {
-        margin-left: 50px;
-    }
-}
-
-/* Small devices move the logo up*/
-@media (max-width: 576px){
-    .main-div-container > img {
-        top: 20%;
-    }
 }
 
 /* end containers*/
@@ -252,15 +250,16 @@ progress::-webkit-progress-bar {
         left: 220px;
         height: 450px;
         width: 600px;
-        z-index: 2;
+        z-index: 4;
         background-color: white;
     }
 
     .about-us-image {
+        position: relative;
         width: 100%;
         height: 600px;
         margin-top: 240px;
-        z-index: 1;
+        z-index: 3;
     }
 }
 
@@ -408,6 +407,12 @@ progress::-webkit-progress-bar {
 }
 
 @media (min-width: 992px) {
+
+    .our-technology-container {
+        background: url("../images/our_tech_bg.png") no-repeat center;
+        background-size: 800px;
+    }
+
     .our-tech-img-container {
         top: 75px;
     }
@@ -464,7 +469,6 @@ progress::-webkit-progress-bar {
     color: #161616;
 }
 
-
 .projects-opt-images {
     padding-top: 16px;
     height: 150px;
@@ -497,6 +501,7 @@ progress::-webkit-progress-bar {
     top: 30%;
     transform: translate(-50%, -50%);
 }
+
 /* end animation */
 
 .projects-last-container {
@@ -537,7 +542,7 @@ progress::-webkit-progress-bar {
         top: 45%;
     }
 
-    .projects-images-options-container > .row > .col-lg-3  {
+    .projects-images-options-container > .row > .col-lg-3 {
         margin-bottom: 20px;
     }
 
@@ -629,6 +634,19 @@ progress::-webkit-progress-bar {
     background-color: white;
     width: 100%;
 }
+/* Sticky logo */
+.sticky-logo {
+    position: fixed;
+    top: 50%;
+    left: calc(50% - 60px);
+    z-index: 2;
+}
+
+.place-in-front {
+    position: relative;
+    z-index: 3;
+}
+
 
 .team-container > .section-subheading {
     margin-top: 350px;
@@ -724,7 +742,6 @@ progress::-webkit-progress-bar {
 
 }
 
-
 /* For medium screens */
 @media (max-width: 992px) {
     .team-container > .row > .col-lg-4 {
@@ -735,7 +752,7 @@ progress::-webkit-progress-bar {
     }
 
     .overlay-social-networks {
-    margin-right: 15px;
+        margin-right: 15px;
     }
 
     .team-container > .row > .col-lg-4 > img {
@@ -744,7 +761,6 @@ progress::-webkit-progress-bar {
         padding-bottom: 50px;
     }
 }
-
 
 @media (min-width: 768px) and (max-width: 992px) {
 
@@ -758,6 +774,7 @@ progress::-webkit-progress-bar {
         height: 30%;
     }
 }
+
 /* end team*/
 
 /* CONTACT */
@@ -825,7 +842,7 @@ progress::-webkit-progress-bar {
 
 .form-control,
 .form-control:focus {
-    background-color: transparent;
+    background-color: #f5f5f7;
     border-radius: 0;
 }
 
@@ -839,6 +856,7 @@ progress::-webkit-progress-bar {
     margin-top: 36px;
     padding-right: 40px;
 }
+
 /* end contact*/
 
 /* Footer */
@@ -906,14 +924,13 @@ progress::-webkit-progress-bar {
     margin-right: 78px;
 }
 
-
 @media (max-width: 767px) {
-    .habiqo-footer  .logo {
+    .habiqo-footer .logo {
         margin-top: 0;
         margin-bottom: 50px;
     }
 
-    .habiqo-footer > .container > .row >  .logo  >  ul > img {
+    .habiqo-footer > .container > .row > .logo > ul > img {
         position: absolute;
         width: 200px;
         top: 50%;
@@ -921,6 +938,7 @@ progress::-webkit-progress-bar {
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
     }
+
     .habiqo-footer {
         text-align: center;
     }
@@ -938,4 +956,5 @@ progress::-webkit-progress-bar {
         padding: 40px;
     }
 }
+
 /* end footer*/
