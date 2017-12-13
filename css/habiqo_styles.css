@@ -161,18 +161,19 @@ progress::-webkit-progress-bar {
     letter-spacing: -0.5px;
 }
 
-.learn-more-link {
+#learn-more-link {
     position: absolute;
     font-size: 16px;
     text-align: left;
     bottom: 104px;
     margin-right: 50px;
     color: #f6f8f9;
+    padding-right: 40px;
     text-decoration: none;
 }
 
-.learn-more-link > img {
-    padding-left: 5px;
+.hvr-icon-forward:before {
+    content: url("../images/assets/arrow.svg") !important;
 }
 
 /* Small devices */
@@ -882,6 +883,7 @@ progress::-webkit-progress-bar {
     color: white;
     padding-right: 40px;
 }
+
 
 #send-message-link > img {
     padding-left: 10px;

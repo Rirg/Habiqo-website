@@ -13,7 +13,7 @@
 
 /*TODO change the content icon*/
 .hvr-icon-forward:before {
-    content: "\f061";
+    content: "";
     position: absolute;
     right: 1em;
     padding: 0 1px;
