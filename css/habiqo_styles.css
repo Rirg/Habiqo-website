@@ -823,8 +823,10 @@ progress::-webkit-progress-bar {
 .habiqo-footer {
     padding-top: 50px;
     background-color: white;
-    color: white;
     height: 100%;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #787e81;
 }
 
 #footer-email {
@@ -834,11 +836,17 @@ progress::-webkit-progress-bar {
 
 .habiqo-footer .row {
     margin-bottom: 60px;
+    color: #787e81;
 }
 
 .habiqo-footer .info {
-    color: #afb0b1;
+    color: #787e81;
 }
+
+#shellshock-footer {
+    color: black;
+}
+
 
 .habiqo-footer ul {
     list-style-type: none;
@@ -868,7 +876,7 @@ progress::-webkit-progress-bar {
 }
 
 .habiqo-footer a {
-    color: #d2d1d1;
+    color: #787e81;
     text-decoration: none;
 }
 
