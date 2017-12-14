@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" media="screen">
     <link type="text/css" rel="stylesheet" href="css/habiqo_styles.css" media="screen"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/aos.css">
 
@@ -74,7 +75,7 @@
         <div class="row container-video-image">
             <div class="col-lg video-container">
                 <div id="content-video-container" class="container">
-                    <a class="html5lightbox" href="https://youtu.be/N08XW9wNRYc"><img
+                    <a class="popup-youtube" href="https://www.youtube.com/watch?v=yEkDosanxGk"><img
                             src="assets/play_button.svg" alt=""></a>
                     <p class="section-subheading">TODO EMPIEZA POR UN SUEÑO</p>
                     <p id="paragraph">Desde los planos hasta la casa final, a la casa de sus sueños.</p>
@@ -357,13 +358,24 @@
 <script src="js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/html5lightbox.js"></script>
 <script type="text/javascript" src="js/aos.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
 <script>
 
     // Initiate
     AOS.init();
+    $(document).ready(function() {
+        $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+            disableOn: 700,
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+
+            fixedContentPos: false
+        });
+    });
 
 
     var fixedLogo = $('.sticky-logo');
