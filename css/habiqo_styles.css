@@ -10,7 +10,6 @@
 
 body {
     font-family: "UniversLTStd", serif;
-    background-color: #E9ECEF;
     z-index: 1;
 }
 
@@ -348,6 +347,7 @@ progress::-webkit-progress-bar {
     line-height: 1.11;
     letter-spacing: -0.2px;
     text-align: center;
+    margin-bottom: 69px;
     color: #161616;
 }
 
@@ -387,7 +387,7 @@ progress::-webkit-progress-bar {
 /*TODO get rid of the small white space at the right of this section*/
 /* Our technology */
 .our-technology-container {
-    background-color: #E9ECEF;
+    background-color: #E9ECEF !important;
     width: 100%;
 }
 
