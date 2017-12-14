@@ -105,13 +105,22 @@ progress::-webkit-progress-bar {
 
 .navbar {
     padding-top: 30px;
+    padding-bottom: 30px;
     background: #E9ECEF !important;
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-item > a:hover {
+    color: #161616 !important;
 }
 
 @media (min-width: 1200px) {
     .navbar-brand {
         margin-left: 139px;
-        margin-right: 273px;
+        margin-right: 263px;
         font-weight: bold;
     }
 }
@@ -409,6 +418,14 @@ progress::-webkit-progress-bar {
     /*}*/
 /*}*/
 
+@media (max-width: 1200px) {
+    .our-system-container {
+        background-color: white;
+        padding: 50px;
+        overflow: hidden;
+        width: 100%;
+    }
+}
 /* end our system */
 
 /*TODO get rid of the small white space at the right of this section*/
@@ -756,6 +773,11 @@ progress::-webkit-progress-bar {
 /* end team*/
 
 /* CONTACT */
+
+.contact-container {
+    height: calc(100vh - 100px);
+}
+
 .contact-container, .contact-video-container, .contact-form-container {
     padding: 0;
     margin: 0;
@@ -764,36 +786,11 @@ progress::-webkit-progress-bar {
 
 .contact-video-container {
     overflow: hidden;
-    height: 100vh;
-}
-
-/* Large devices: set a specific width / auto height and translate -50% to center the video */
-@media (min-width: 992px) {
-    .contact-video-container > video {
-        background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
-        height: auto;
-        width: 140vw;
-        transform: translateX(-50%);
-    }
-}
-
-/* Medium devices: make the container height bigger and split the height 50 - 50 between the contact form and the video */
-@media (max-width: 992px) {
-    .contact-container {
-        height: 200vh;
-    }
-
-    .contact-video-container {
-        height: 50%;
-    }
-
-    .contact-form-container {
-        height: 50%;
-    }
+    height: 100%;
 }
 
 .contact-form-container {
-    height: calc(100vh - 55px);
+    height: 100%;
     color: white;
 }
 
@@ -845,6 +842,31 @@ progress::-webkit-progress-bar {
 
 .message-textarea > .col > .form-control {
     resize: none;
+}
+
+/* Large devices: set a specific width / auto height and translate -50% to center the video */
+@media (min-width: 992px) {
+    .contact-video-container > video {
+        background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
+        width: 200%;
+        height: auto;
+        transform: translateX(-50%);
+    }
+}
+
+/* Medium devices: make the container height bigger and split the height 50 - 50 between the contact form and the video */
+@media (max-width: 992px) {
+    .contact-container {
+        height: 200vh;
+    }
+
+    .contact-video-container {
+        height: 50%;
+    }
+
+    .contact-form-container {
+        height: 50%;
+    }
 }
 
 /* end contact*/

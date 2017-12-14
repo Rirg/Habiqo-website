@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +33,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+                <state relative-caret-position="644">
+                  <caret line="384" column="34" lean-forward="true" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +67,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="236">
-                  <caret line="364" column="16" lean-forward="true" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
+                <state relative-caret-position="463">
+                  <caret line="851" column="20" lean-forward="false" selection-start-line="851" selection-start-column="20" selection-end-line="851" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -85,11 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>foot</find>
-      <find>break</find>
-      <find>Bernardo</find>
-      <find>T</find>
-      <find>Team-name</find>
       <find>overla</find>
       <find>over</find>
       <find>overlay-social</find>
@@ -99,8 +96,6 @@
       <find>info</find>
       <find>our-tec</find>
       <find>team</find>
-      <find>nav</find>
-      <find>contact</find>
       <find>body</find>
       <find>place</find>
       <find>our</find>
@@ -115,6 +110,13 @@
       <find>card</find>
       <find>our-system-hea</find>
       <find>Sistema integral</find>
+      <find>nav-</find>
+      <find>n</find>
+      <find>nav</find>
+      <find>system</find>
+      <find>habiqo</find>
+      <find>.contact-video-container</find>
+      <find>contact</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,8 +135,8 @@
         <option value="$PROJECT_DIR$/css/main_styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/hover.css" />
-        <option value="$PROJECT_DIR$/css/habiqo_styles.css" />
         <option value="$PROJECT_DIR$/building.html" />
+        <option value="$PROJECT_DIR$/css/habiqo_styles.css" />
       </list>
     </option>
   </component>
@@ -364,7 +366,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204345000" />
+    <option name="totallyTimeSpent" value="209083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -720,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="5" column="110266" lean-forward="false" selection-start-line="5" selection-start-column="110266" selection-end-line="5" selection-end-column="110266" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/our-tech-image.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -759,18 +754,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="364" column="16" lean-forward="true" selection-start-line="364" selection-start-column="16" selection-end-line="364" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="256">
+          <caret line="5" column="61646" lean-forward="false" selection-start-line="5" selection-start-column="61646" selection-end-line="5" selection-end-column="61646" />
+          <folding>
+            <element signature="e#51727#51927#2" expanded="true" />
+            <element signature="e#52049#52198#2" expanded="true" />
+            <element signature="e#52344#52490#2" expanded="true" />
+            <element signature="e#52915#53078#1" expanded="true" />
+            <element signature="e#62330#62573#2" expanded="true" />
+            <element signature="e#63440#63689#2" expanded="true" />
+            <element signature="e#89389#89579#2" expanded="true" />
+            <element signature="e#89625#89815#2" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/building.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="122" column="30" lean-forward="false" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
+        <state relative-caret-position="-7">
+          <caret line="302" column="26" lean-forward="false" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="851" column="20" lean-forward="false" selection-start-line="851" selection-start-column="20" selection-end-line="851" selection-end-column="20" />
           <folding />
         </state>
       </provider>

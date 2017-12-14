@@ -17,7 +17,7 @@
 </head>
 
 
-<body data-spy="scroll" data-target="#navbar-habiqo" data-offset="65">
+<body data-spy="scroll" data-target="#navbar-habiqo" data-offset="100">
 
 <!-- Welcome div -->
 <div class="main-div-container place-in-front">
@@ -42,7 +42,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav nav">
             <li class="nav-item">
-                <a class="nav-link" href="#about-us">Quienes somos <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about-us">Quienes somos</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#our-system">Nuestro Sistema</a>
@@ -281,7 +281,7 @@
     </div>
 
     <!-- Contact us  -->
-    <div id="contact" class="contact-container section-container row">
+    <div id="contact" class="contact-container row">
         <div class="col-lg-6 contact-video-container">
             <!-- Video -->
             <!-- TODO download video and keep it local-->
@@ -361,9 +361,12 @@
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
 <script>
-
     // Initiate
-    AOS.init();
+    AOS.init({
+        disable: 'mobile'
+    });
+
+    // Video modal
     $(document).ready(function () {
         $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
             disableOn: 700,
@@ -379,7 +382,6 @@
 
     var fixedLogo = $('.sticky-logo');
 
-    // TODO center the logo with the "EQUIPO" word
     $(window).scroll(function () {
 
         if (collision(fixedLogo, $('.main-div-container'))) {
