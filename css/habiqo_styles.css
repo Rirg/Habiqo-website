@@ -868,7 +868,6 @@ progress::-webkit-progress-bar {
         height: 50%;
     }
 }
-
 /* end contact*/
 
 /* Footer */
@@ -897,10 +896,6 @@ progress::-webkit-progress-bar {
 
 #shellshock-footer {
     color: black;
-}
-
-.logo {
-    /*background-color: #6f42c1;*/
 }
 
 .habiqo-footer ul {

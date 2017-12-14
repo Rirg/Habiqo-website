@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,8 +32,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="384" column="34" lean-forward="true" selection-start-line="384" selection-start-column="34" selection-end-line="384" selection-end-column="34" />
+                <state relative-caret-position="375">
+                  <caret line="365" column="0" lean-forward="true" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -65,8 +66,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="437">
-                  <caret line="859" column="30" lean-forward="false" selection-start-line="859" selection-start-column="30" selection-end-line="859" selection-end-column="30" />
+                <state relative-caret-position="460">
+                  <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -85,8 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>overla</find>
-      <find>over</find>
       <find>overlay-social</find>
       <find>t</find>
       <find>video</find>
@@ -115,6 +114,8 @@
       <find>habiqo</find>
       <find>.contact-video-container</find>
       <find>contact</find>
+      <find>aos</find>
+      <find>data-aos</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,8 +134,8 @@
         <option value="$PROJECT_DIR$/css/main_styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/hover.css" />
-        <option value="$PROJECT_DIR$/building.html" />
         <option value="$PROJECT_DIR$/css/habiqo_styles.css" />
+        <option value="$PROJECT_DIR$/building.html" />
       </list>
     </option>
   </component>
@@ -364,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209424000" />
+    <option name="totallyTimeSpent" value="210877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,18 +770,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/building.html">
+    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="302" column="26" lean-forward="false" selection-start-line="302" selection-start-column="26" selection-end-line="302" selection-end-column="26" />
+        <state relative-caret-position="460">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
+    <entry file="file://$PROJECT_DIR$/building.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="859" column="30" lean-forward="false" selection-start-line="859" selection-start-column="30" selection-end-line="859" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="365" column="0" lean-forward="true" selection-start-line="365" selection-start-column="0" selection-end-line="365" selection-end-column="0" />
           <folding />
         </state>
       </provider>
