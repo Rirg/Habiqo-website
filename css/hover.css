@@ -78,3 +78,22 @@
     width: calc(100% - 10px);
 }
 
+
+/* TEAM SOCIAL NETWORKS HOVER OVERLAY ANIMATION */
+.overlay-social-networks {
+    position: absolute;
+    bottom: -25px;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 68%;
+    height: 120px;
+    transition: .5s ease;
+    margin-bottom: 30px;
+}
+
+.team-container > .row > .col-lg-4:hover .overlay-social-networks {
+    height: 180px;
+    color: white;
+}
+

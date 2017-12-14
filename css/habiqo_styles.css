@@ -173,7 +173,7 @@ progress::-webkit-progress-bar {
 }
 
 .hvr-icon-forward:before {
-    content: url("../images/assets/arrow.svg") !important;
+    content: url("../assets/arrow.svg") !important;
 }
 
 /* Small devices */
@@ -496,7 +496,7 @@ progress::-webkit-progress-bar {
 }
 
 .projects-last-container > .hvr-icon-forward:before {
-    content: url("../images/assets/arrow_black.svg") !important;
+    content: url("../assets/arrow_black.svg") !important;
 }
 
 .projects-last-container > span {
@@ -628,7 +628,6 @@ progress::-webkit-progress-bar {
     z-index: 3;
 }
 
-
 .team-container > .section-subheading {
     margin-top: 250px;
     margin-bottom: 30px;
@@ -654,24 +653,6 @@ progress::-webkit-progress-bar {
 .team-container > .row > .col-lg-4 > img {
     width: 275px;
     height: 350px;
-}
-
-/* TEAM SOCIAL NETWORKS HOVER OVERLAY ANIMATION */
-.overlay-social-networks {
-    position: absolute;
-    bottom: -25px;
-    right: 0;
-    background-color: black;
-    overflow: hidden;
-    width: 68%;
-    height: 120px;
-    transition: .5s ease;
-    margin-bottom: 30px;
-}
-
-.team-container > .row > .col-lg-4:hover .overlay-social-networks {
-    height: 45%;
-    color: white;
 }
 
 .team-name {
@@ -718,7 +699,7 @@ progress::-webkit-progress-bar {
 /* for big screens add more margin to the right  */
 @media (min-width: 1200px) {
     .overlay-social-networks {
-        margin-right: 37px;
+        margin-right: 41px;
     }
 
 }
@@ -742,20 +723,6 @@ progress::-webkit-progress-bar {
         padding-bottom: 50px;
     }
 }
-
-@media (min-width: 768px) and (max-width: 992px) {
-
-    .team-container > .row > .col-lg-4:hover .overlay-social-networks {
-        height: 20%;
-    }
-}
-
-@media (max-width: 768px) {
-    .team-container > .row > .col-lg-4:hover .overlay-social-networks {
-        height: 30%;
-    }
-}
-
 /* end team*/
 
 /* CONTACT */
@@ -861,6 +828,7 @@ progress::-webkit-progress-bar {
 }
 
 #footer-email {
+    text-align: justify;
     word-wrap: break-word;
 }
 
@@ -869,7 +837,6 @@ progress::-webkit-progress-bar {
 }
 
 .habiqo-footer .info {
-    text-align: justify;
     color: #afb0b1;
 }
 
@@ -949,5 +916,3 @@ progress::-webkit-progress-bar {
         padding: 40px;
     }
 }
-
-/* end footer*/
