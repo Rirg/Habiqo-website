@@ -848,7 +848,7 @@ progress::-webkit-progress-bar {
 @media (min-width: 992px) {
     .contact-video-container > video {
         background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
-        width: 200%;
+        width: 235%;
         height: auto;
         transform: translateX(-50%);
     }
@@ -857,7 +857,7 @@ progress::-webkit-progress-bar {
 /* Medium devices: make the container height bigger and split the height 50 - 50 between the contact form and the video */
 @media (max-width: 992px) {
     .contact-container {
-        height: 200vh;
+        height: calc(200vh - 200px);
     }
 
     .contact-video-container {
