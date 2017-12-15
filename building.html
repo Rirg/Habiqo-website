@@ -103,7 +103,8 @@
                 </div>
             </div>
             <div class="card place-in-front" data-aos="fade" data-aos-once="true">
-                <img class="card-img-top" id="card-img-2" src="images/habiqo_home/house-swapping.svg" alt="Card image cap">
+                <img class="card-img-top" id="card-img-2" src="images/habiqo_home/house-swapping.svg"
+                     alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">LIBERTAD ARQUITECTÓNICA</h4>
                     <p class="card-text">Some text here that explains more. about this category. There is no need
@@ -111,7 +112,8 @@
                 </div>
             </div>
             <div class="card place-in-front" data-aos="fade" data-aos-once="true">
-                <img class="card-img-top" id="card-img-3" src="images/habiqo_home/proposal-contract-offer.svg" alt="Card image cap">
+                <img class="card-img-top" id="card-img-3" src="images/habiqo_home/proposal-contract-offer.svg"
+                     alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">AHORRO DE COSTOS</h4>
                     <p class="card-text">Some text here that explains more. about this category. There is no need
@@ -122,7 +124,8 @@
 
         <div class="card-deck">
             <div class="card place-in-front" data-aos="fade" data-aos-once="true">
-                <img class="card-img-top" id="card-img-4" src="images/habiqo_home/cell-nucleus.svg" alt="Card image cap">
+                <img class="card-img-top" id="card-img-4" src="images/habiqo_home/cell-nucleus.svg"
+                     alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">SUSTENTABLE</h4>
                     <p class="card-text">Some text here that explains more. about this category. There is no need
@@ -361,8 +364,59 @@
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 
 <script>
-    // Initiate
-    AOS.init();
+    var fixedLogo = $('.sticky-logo');
+    var finished = false;
+
+    if ($(window).scrollTop() !== 0) {
+        fixedLogo.attr('src', 'assets/logo6.svg');
+        fixedLogo.css('position', 'relative');
+        fixedLogo.css('top', '337px');
+        finished = true;
+        // Disable scroll animations
+        AOS.init({
+            disable: true
+        });
+    } else {
+        // Initiate scroll animations just when the user is on the top of the page
+        AOS.init();
+    }
+
+    $(window).scroll(function () {
+        // Check collisions just if the finished variable is set to false
+        if(!finished) {
+            if (collision(fixedLogo, $('.main-div-container'))) {
+                fixedLogo.attr('src', 'assets/logo1.svg');
+            }
+
+            if (collision(fixedLogo, $('#content-video-container'))) {
+                fixedLogo.attr('src', 'assets/logo2.svg');
+            }
+
+            if (collision(fixedLogo, $('.our-system-container'))) {
+                fixedLogo.attr('src', 'assets/logo3.svg');
+            }
+
+            if (collision(fixedLogo, $('.our-technology-container'))) {
+                fixedLogo.attr('src', 'assets/logo4.svg');
+            }
+
+            if (collision(fixedLogo, $('.projects-opt-images'))) {
+                fixedLogo.attr('src', 'assets/logo5.svg');
+            }
+
+
+            if (collision(fixedLogo, $('.team-container'))) {
+                fixedLogo.attr('src', 'assets/logo6.svg');
+            }
+
+            if (collision(fixedLogo, $('.meet-our-team'))) {
+                fixedLogo.css('position', 'relative');
+                fixedLogo.css('top', '337px');
+                finished = true;
+            }
+        }
+
+    });
 
     // Video modal
     $(document).ready(function () {
@@ -375,42 +429,6 @@
 
             fixedContentPos: false
         });
-    });
-
-
-    var fixedLogo = $('.sticky-logo');
-
-    $(window).scroll(function () {
-
-        if (collision(fixedLogo, $('.main-div-container'))) {
-            fixedLogo.attr('src', 'assets/logo1.svg');
-        }
-
-        if (collision(fixedLogo, $('#content-video-container'))) {
-            fixedLogo.attr('src', 'assets/logo2.svg');
-        }
-
-        if (collision(fixedLogo, $('.our-system-container'))) {
-            fixedLogo.attr('src', 'assets/logo3.svg');
-        }
-
-        if (collision(fixedLogo, $('.our-technology-container'))) {
-            fixedLogo.attr('src', 'assets/logo4.svg');
-        }
-
-        if (collision(fixedLogo, $('.projects-opt-images'))) {
-            fixedLogo.attr('src', 'assets/logo5.svg');
-        }
-
-
-        if (collision(fixedLogo, $('.team-container'))) {
-            fixedLogo.attr('src', 'assets/logo6.svg');
-        }
-
-        if (collision(fixedLogo, $('.meet-our-team'))) {
-            fixedLogo.css('position', 'relative');
-            fixedLogo.css('top', '337px');
-        }
     });
 
 
