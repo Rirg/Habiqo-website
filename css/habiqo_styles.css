@@ -559,6 +559,18 @@ progress::-webkit-progress-bar {
     width: 100%;
 }
 
+.option-link {
+    color: #161616;
+    font-size: 16px;
+    opacity: 0.3;
+}
+
+.option-link:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: black;
+}
+
 .projects-last-container {
     position: relative;
     top: 250px;

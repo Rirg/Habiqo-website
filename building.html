@@ -14,6 +14,35 @@
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/aos.css">
 
+    <!-- Fav-icons -->
+    <!--TODO all all the favicons-->
+    <link rel="icon" type="image/png" href="assets/favicon.ico/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/favicon-96x96.png" sizes="96x96">
+
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-36x36.png" sizes="36x36">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-48x48.png" sizes="48x48">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-72x72.png" sizes="72x72">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-144x144.png" sizes="144x144">
+    <link rel="icon" type="image/png" href="assets/favicon.ico/android-icon-192x192.png" sizes="192x192">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon.ico/apple-icon-180x180.png">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/favicon.ico/apple-icon-precomposed.png">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/favicon.ico/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="assets/favicon.ico/ms-icon-150x150.png">
+    <meta name="msapplication-TileImage" content="assets/favicon.ico/ms-icon-310x310.png">
+
 </head>
 
 
@@ -175,31 +204,32 @@
         <div class="projects-image-container place-in-front"></div>
         <div class="projects-images-options-container place-in-front">
             <div class="row">
+                <!-- TODO make every link show the corresponding image on the top-->
                 <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-once="true">
-                    <span>Opción 1</span>
-                    <img class="projects-opt-images" src="images/projects-image-opt1.jpg" alt="">
+                    <a class="option-link" id="opt1" href="">Opción 1</a>
+                    <img class="projects-opt-images" src="images/projects_image_opt1.jpg" alt="">
                    <!-- TODO make this overlay animation clickable-->
                     <div class="fade-overlay">
                         <span>List of materials</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="200" data-aos-once="true">
-                    <span>Opción 2</span>
-                    <img class="projects-opt-images" src="images/projects-image-opt2.jpg" alt="">
+                    <a class="option-link" id="opt2" href="">Opción 2</a>
+                    <img class="projects-opt-images" src="images/projects_image_opt2.jpg" alt="">
                     <div class="fade-overlay">
                         <span>Some text</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="300" data-aos-once="true">
-                    <span>Opción 3</span>
-                    <img class="projects-opt-images" src="images/projects-image-opt3.jpg" alt="">
+                    <a class="option-link" id="opt3" href="">Opción 3</a>
+                    <img class="projects-opt-images" src="images/projects_image_opt3.jpg" alt="">
                     <div class="fade-overlay">
                         <span>Some text</span>
                     </div>
                 </div>
                 <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-offset="400" data-aos-once="true">
-                    <span>Opción 4</span>
-                    <img class="projects-opt-images" src="images/projects-image-opt4.jpg" alt="">
+                    <a class="option-link" id="opt4" href="">Opción 4</a>
+                    <img class="projects-opt-images" src="images/projects_image_opt4.jpg" alt="">
                     <div class="fade-overlay">
                         <span>Some text</span>
                     </div>
@@ -417,6 +447,26 @@
             }
         }
 
+    });
+
+    $( ".option-link" ).click(function( event ) {
+        event.preventDefault();
+    });
+
+    $("#opt1").click(function () {
+        $(".projects-image-container").css('background', 'url("images/projects_cover_opt1.jpg") no-repeat center');
+    });
+
+    $("#opt2").click(function () {
+        $(".projects-image-container").css('background', 'url("images/projects_cover_opt2.jpg") no-repeat center');
+    });
+
+    $("#opt3").click(function () {
+        $(".projects-image-container").css('background', 'url("images/projects_cover_opt3.jpg") no-repeat center');
+    });
+
+    $("#opt4").click(function () {
+        $(".projects-image-container").css('background', 'url("images/projects_cover_opt4.jpg") no-repeat center');
     });
 
     // Video modal
