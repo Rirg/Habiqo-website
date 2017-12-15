@@ -562,12 +562,17 @@ progress::-webkit-progress-bar {
 .option-link {
     color: #161616;
     font-size: 16px;
+}
+.option-link  > span {
     opacity: 0.3;
+}
+
+.option-link:hover > span {
+    opacity: 1;
 }
 
 .option-link:hover {
     text-decoration: none;
-    opacity: 1;
     color: black;
 }
 
