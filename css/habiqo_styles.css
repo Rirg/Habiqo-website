@@ -8,6 +8,11 @@
     src: url("../fonts/Univers/UniversBlack.ttf");
 }
 
+@font-face {
+    font-family: "UniversLTStd Bold";
+    src: url("../fonts/Univers/UniversLTStd-Bold.otf");
+}
+
 body {
     font-family: "UniversLTStd", serif;
     z-index: 1;
@@ -400,6 +405,7 @@ progress::-webkit-progress-bar {
     padding: 0;
     font-size: 16px;
     font-weight: bold;
+    font-family: "UniversLTStd Bold";
     margin: 0 0 13px;
     color: black;
     text-align: center;
@@ -438,6 +444,10 @@ progress::-webkit-progress-bar {
 .our-tech-subheading {
     font-size: 14px;
     letter-spacing: 2px;
+    color: #787e81;
+}
+
+#our-tech-p {
     color: #787e81;
 }
 

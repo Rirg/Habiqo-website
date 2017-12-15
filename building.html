@@ -159,7 +159,7 @@
             <div class="our-tech-text-wrapper">
                 <p class="our-tech-subheading">SUB-HEADING HERE</p>
                 <h3>Nuestra Tecnología</h3>
-                <p>La tecnología de construcción de Habiqo ofrece una alternativa innovadora y tecnológica para la
+                <p id="our-tech-p">La tecnología de construcción de Habiqo ofrece una alternativa innovadora y tecnológica para la
                     construcción de proyectos. Nuestro sistema acelera la construcción hasta en un 50%, minimizando el
                     desperdicio de materiales y energía, mientras maximiza la calidad y la seguridad. Mezclamos lo mejor
                     de la tecnología, procesos y personal de fabricación y construcción con las capacidades de
@@ -178,6 +178,7 @@
                 <div class="col-lg-3 col-6" data-aos="flip-up" data-aos-once="true">
                     <span>Opción 1</span>
                     <img class="projects-opt-images" src="images/projects-image-opt1.jpg" alt="">
+                   <!-- TODO make this overlay animation clickable-->
                     <div class="fade-overlay">
                         <span>List of materials</span>
                     </div>
@@ -431,9 +432,8 @@
         });
     });
 
-
+    // Helper method to check collisions
     function collision($div1, $div2) {
-
         var x1 = $div1.offset().left;
         var y1 = $div1.offset().top;
         var h1 = $div1.outerHeight(true);
