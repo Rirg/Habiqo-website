@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
+      <change beforePath="$PROJECT_DIR$/css/hover.css" afterPath="$PROJECT_DIR$/css/hover.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +34,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="215">
-                  <caret line="210" column="45" lean-forward="false" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+                <state relative-caret-position="138">
+                  <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
                   <folding />
                 </state>
               </provider>
@@ -57,8 +58,8 @@
           <file leaf-file-name="hover.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/hover.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="23" />
+                <state relative-caret-position="455">
+                  <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
                   <folding />
                 </state>
               </provider>
@@ -67,8 +68,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="569" column="19" lean-forward="false" selection-start-line="569" selection-start-column="19" selection-end-line="569" selection-end-column="19" />
+                <state relative-caret-position="541">
+                  <caret line="682" column="24" lean-forward="false" selection-start-line="682" selection-start-column="24" selection-end-line="682" selection-end-column="24" />
                   <folding />
                 </state>
               </provider>
@@ -87,9 +88,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>card-img</find>
-      <find>footer</find>
-      <find>ackground-color: #6f42c1;</find>
       <find>`</find>
       <find>our-system</find>
       <find>our-system-hea</find>
@@ -117,6 +115,9 @@
       <find>opti</find>
       <find>opt</find>
       <find>option</find>
+      <find>last</find>
+      <find>team</find>
+      <find>proje</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -352,12 +353,12 @@
       <workItem from="1513012643403" duration="25332000" />
       <workItem from="1513169930880" duration="7120000" />
       <workItem from="1513199693683" duration="1931000" />
-      <workItem from="1513366369640" duration="4839000" />
+      <workItem from="1513366369640" duration="7264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="224441000" />
+    <option name="totallyTimeSpent" value="226866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -380,7 +381,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799014" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -402,6 +403,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -725,24 +752,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="455">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="569" column="19" lean-forward="false" selection-start-line="569" selection-start-column="19" selection-end-line="569" selection-end-column="19" />
+        <state relative-caret-position="541">
+          <caret line="682" column="24" lean-forward="false" selection-start-line="682" selection-start-column="24" selection-end-line="682" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/building.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="210" column="45" lean-forward="false" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+        <state relative-caret-position="138">
+          <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
           <folding />
         </state>
       </provider>

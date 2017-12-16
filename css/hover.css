@@ -47,7 +47,7 @@
 }
 
 .projects-images-options-container > .row > .col-lg-3:hover .fade-overlay {
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .fade-overlay > span {

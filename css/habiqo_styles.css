@@ -610,6 +610,7 @@ progress::-webkit-progress-bar {
 .projects-last-images {
     width: 370px;
     height: 375px;
+    display: block;
 }
 
 @media (max-width: 992px) {
@@ -667,6 +668,7 @@ progress::-webkit-progress-bar {
 }
 
 .text > p {
+    white-space: nowrap;
     font-size: 42px;
     line-height: 1.1;
     letter-spacing: -0.5px;
@@ -678,6 +680,7 @@ progress::-webkit-progress-bar {
 }
 
 .text > a {
+    white-space: nowrap;
     position: absolute;
     top: 80%;
     color: white;
