@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
-      <change beforePath="$PROJECT_DIR$/css/hover.css" afterPath="$PROJECT_DIR$/css/hover.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +32,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="138">
-                  <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
+                <state relative-caret-position="296">
+                  <caret line="130" column="92" lean-forward="false" selection-start-line="130" selection-start-column="92" selection-end-line="130" selection-end-column="92" />
                   <folding />
                 </state>
               </provider>
@@ -49,7 +47,7 @@
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="4315">
-                  <caret line="233" column="30" lean-forward="true" selection-start-line="233" selection-start-column="30" selection-end-line="233" selection-end-column="30" />
+                  <caret line="234" column="30" lean-forward="true" selection-start-line="234" selection-start-column="30" selection-end-line="234" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -58,8 +56,8 @@
           <file leaf-file-name="hover.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/hover.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="455">
-                  <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+                <state relative-caret-position="46">
+                  <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
                   <folding />
                 </state>
               </provider>
@@ -68,8 +66,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="541">
-                  <caret line="682" column="24" lean-forward="false" selection-start-line="682" selection-start-column="24" selection-end-line="682" selection-end-column="24" />
+                <state relative-caret-position="186">
+                  <caret line="703" column="14" lean-forward="false" selection-start-line="703" selection-start-column="14" selection-end-line="703" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -88,9 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>`</find>
-      <find>our-system</find>
-      <find>our-system-hea</find>
       <find>Sistema integral</find>
       <find>nav-</find>
       <find>n</find>
@@ -102,7 +97,6 @@
       <find>sticky</find>
       <find>last-pro</find>
       <find>project</find>
-      <find>card</find>
       <find>our-tech</find>
       <find>nav</find>
       <find>contact</find>
@@ -118,6 +112,10 @@
       <find>last</find>
       <find>team</find>
       <find>proje</find>
+      <find>our-syste</find>
+      <find>place-inf</find>
+      <find>place-in-front</find>
+      <find>card</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -208,7 +206,7 @@
             <path>
               <item name="Habiqo web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Habiqo web" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226866000" />
+    <option name="totallyTimeSpent" value="229133000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -438,13 +436,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -752,24 +743,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hover.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="68" column="17" lean-forward="true" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+        <state relative-caret-position="46">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="682" column="24" lean-forward="false" selection-start-line="682" selection-start-column="24" selection-end-line="682" selection-end-column="24" />
+        <state relative-caret-position="186">
+          <caret line="703" column="14" lean-forward="false" selection-start-line="703" selection-start-column="14" selection-end-line="703" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/aos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/building.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="255" column="48" lean-forward="false" selection-start-line="255" selection-start-column="48" selection-end-line="255" selection-end-column="48" />
+        <state relative-caret-position="296">
+          <caret line="130" column="92" lean-forward="false" selection-start-line="130" selection-start-column="92" selection-end-line="130" selection-end-column="92" />
           <folding />
         </state>
       </provider>

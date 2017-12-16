@@ -713,8 +713,8 @@ progress::-webkit-progress-bar {
 }
 
 .place-in-front {
-    position: relative;
-    z-index: 3;
+    position: relative !important;
+    z-index: 3 !important;
 }
 
 .team-container > .section-subheading {
