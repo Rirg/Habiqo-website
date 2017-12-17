@@ -518,7 +518,7 @@ progress::-webkit-progress-bar {
 
 .projects-image-container {
     height: 73vh;
-    background: url("../images/our-projects-image.jpg") no-repeat center;
+    background: url("../images/projects_image_opt1_cover.jpg") no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -562,13 +562,18 @@ progress::-webkit-progress-bar {
 .option-link {
     color: #161616;
     font-size: 16px;
+    cursor: pointer;
 }
 .option-link  > span {
     opacity: 0.3;
 }
 
-.option-link:hover > span {
+.option-link:hover > .opt-title {
     opacity: 1;
+}
+
+.option-link-active {
+    opacity: 1 !important;
 }
 
 .option-link:hover {
@@ -580,6 +585,11 @@ progress::-webkit-progress-bar {
     position: relative;
     top: 250px;
 }
+.projects-last-container > .row > .col-lg-4 {
+    width: calc(100% - 10px);
+    cursor: pointer;
+}
+
 
 .projects-last-container > .hvr-icon-forward:before {
     content: url("../assets/arrow_black.svg") !important;

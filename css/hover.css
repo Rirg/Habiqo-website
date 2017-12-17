@@ -46,6 +46,19 @@
     background-color: black;
 }
 
+.fade-overlay-active {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8 !important;
+    transition: .5s ease;
+    background-color: black;
+}
+
 .projects-images-options-container > .row > .col-lg-3:hover .fade-overlay {
     opacity: 0.8;
 }
@@ -72,6 +85,7 @@
     width: 0;
     height: 100%;
     transition: .5s ease;
+    cursor: pointer;
 }
 
 .projects-last-container > .row > .col-lg-4:hover .overlay {

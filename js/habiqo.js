@@ -52,24 +52,17 @@ $(window).scroll(function () {
 
 });
 
+// Handle project option selection
 $(".option-link").click(function (event) {
     event.preventDefault();
-});
-
-$("#opt1").click(function () {
-    $(".projects-image-container").css('background', 'url("images/projects_cover_opt1.jpg") no-repeat center');
-});
-
-$("#opt2").click(function () {
-    $(".projects-image-container").css('background', 'url("images/projects_cover_opt2.jpg") no-repeat center');
-});
-
-$("#opt3").click(function () {
-    $(".projects-image-container").css('background', 'url("images/projects_cover_opt3.jpg") no-repeat center');
-});
-
-$("#opt4").click(function () {
-    $(".projects-image-container").css('background', 'url("images/projects_cover_opt4.jpg") no-repeat center');
+    // Set the corresponding image when the user clicks in the big container
+    $(".projects-image-container").css('background', 'url("images/projects_image_'+ $(this).attr("id") +'_cover.jpg") no-repeat center');
+    // Remove in all the options the active classes
+    $(".option-link").children("div.fade-overlay-active").removeClass('fade-overlay-active');
+    $(".opt-title").removeClass('option-link-active');
+    // Add the active classes to the clicked option
+    $(this).children('.fade-overlay').addClass('fade-overlay-active');
+    $(this).children('.opt-title').addClass('option-link-active');
 });
 
 // Video modal
