@@ -293,18 +293,14 @@ progress::-webkit-progress-bar {
         height: 400px;
         background-color: white;
         margin-top: 330px;
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
     .about-us-image {
         align-self: center;
         max-height: 600px;
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
         padding-bottom: 100px;
     }
 }
@@ -431,9 +427,9 @@ progress::-webkit-progress-bar {
 }
 
 /*@media (max-width: 1200px) {*/
-    /*.our-system-container {*/
-        /*padding: 50px 50px;*/
-    /*}*/
+/*.our-system-container {*/
+/*padding: 50px 50px;*/
+/*}*/
 /*}*/
 
 @media (max-width: 1200px) {
@@ -444,6 +440,7 @@ progress::-webkit-progress-bar {
         width: 100%;
     }
 }
+
 /* end our system */
 
 /*TODO get rid of the small white space at the right of this section*/
@@ -557,6 +554,7 @@ progress::-webkit-progress-bar {
     padding-top: 16px;
     height: 150px;
     width: 100%;
+    display: block
 }
 
 .option-link {
@@ -564,7 +562,8 @@ progress::-webkit-progress-bar {
     font-size: 16px;
     cursor: pointer;
 }
-.option-link  > span {
+
+.option-link > span {
     opacity: 0.3;
 }
 
@@ -585,11 +584,11 @@ progress::-webkit-progress-bar {
     position: relative;
     top: 250px;
 }
+
 .projects-last-container > .row > .col-lg-4 {
     width: calc(100% - 10px);
     cursor: pointer;
 }
-
 
 .projects-last-container > .hvr-icon-forward:before {
     content: url("../assets/arrow_black.svg") !important;
@@ -822,6 +821,7 @@ progress::-webkit-progress-bar {
         padding-bottom: 50px;
     }
 }
+
 /* end team*/
 
 /* CONTACT */
@@ -888,7 +888,6 @@ progress::-webkit-progress-bar {
     padding-right: 40px;
 }
 
-
 #send-message-link > img {
     padding-left: 10px;
 }
@@ -921,6 +920,7 @@ progress::-webkit-progress-bar {
         height: 50%;
     }
 }
+
 /* end contact*/
 
 /* Footer */
