@@ -142,6 +142,31 @@ progress::-webkit-progress-bar {
     background-size: cover;
     color: white;
 }
+/*Small and Extra small devices (landscape phones, 576px and up)*/
+@media (max-width: 768px) {
+    .main-div-container > div {
+        margin-left: 20px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .main-div-container > div {
+        margin-left: 71px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .main-div-container > div {
+        margin-left: 137px;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
 
 .main-div-container > div {
     text-align: left;
@@ -185,24 +210,6 @@ progress::-webkit-progress-bar {
 
 .hvr-icon-forward:before {
     content: url("../assets/arrow.svg") !important;
-}
-
-/* Small devices */
-@media (max-width: 768px) {
-    .main-div-container > div > img {
-        top: 20%;
-    }
-
-    .main-div-container > div {
-        padding: 0;
-        margin-left: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .main-div-container > div {
-        margin-left: 137px;
-    }
 }
 
 /* end main div*/
