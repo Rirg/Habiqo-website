@@ -125,7 +125,6 @@ progress::-webkit-progress-bar {
 @media (min-width: 1200px) {
     .navbar-brand {
         margin-left: 139px;
-        margin-right: 263px;
         font-weight: bold;
     }
 }
