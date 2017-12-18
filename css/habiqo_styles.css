@@ -125,13 +125,6 @@ progress::-webkit-progress-bar {
 @media (min-width: 1200px) {
     .navbar-brand {
         margin-left: 139px;
-        font-weight: bold;
-    }
-}
-
-@media (max-width: 992px) {
-    .navbar-brand {
-        font-weight: bold;
     }
 }
 
@@ -151,7 +144,6 @@ progress::-webkit-progress-bar {
 }
 
 .main-div-container > div {
-    background-color: #6f42c1 !important;
     text-align: left;
 }
 
