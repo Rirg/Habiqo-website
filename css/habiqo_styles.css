@@ -732,15 +732,24 @@ progress::-webkit-progress-bar {
     margin-bottom: 98px;
 }
 
-.team-container > .row > .col-lg-4 {
-    /*background-color: #1c7430;*/
+.team-container > .row {
+    width: 100%;
+    justify-content: center;
+}
+
+.photo-container {
     height: 420px;
+    max-width: 275px;
     overflow: hidden;
     text-align: center;
 }
 
-.team-container > .row > .col-lg-4 > img {
-    width: 275px;
+#center-image {
+    margin-left: 69px;
+    margin-right: 69px;
+}
+
+.team-photo {
     height: 350px;
 }
 
@@ -779,8 +788,8 @@ progress::-webkit-progress-bar {
 @media (min-width: 992px) {
     .team-container {
         padding-bottom: 200px;
-        padding-left: 200px;
-        padding-right: 200px;
+        /*padding-left: 230px;*/
+        /*padding-right: 230px;*/
         background-color: white;
     }
 }
@@ -788,13 +797,16 @@ progress::-webkit-progress-bar {
 /* for big screens add more margin to the right  */
 @media (min-width: 1200px) {
     .overlay-social-networks {
-        margin-right: 41px;
+        /*margin-right: 12px;*/
     }
-
 }
 
 /* For medium screens */
 @media (max-width: 992px) {
+    .photo-container {
+        max-width: 625px;
+        margin-bottom: 60px;
+    }
     .team-container > .row > .col-lg-4 {
         /*background-color: #1c7430;*/
         min-height: 420px;
