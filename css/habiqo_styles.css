@@ -744,11 +744,6 @@ progress::-webkit-progress-bar {
     text-align: center;
 }
 
-#center-image {
-    margin-left: 69px;
-    margin-right: 69px;
-}
-
 .team-photo {
     height: 350px;
 }
@@ -791,6 +786,11 @@ progress::-webkit-progress-bar {
         /*padding-left: 230px;*/
         /*padding-right: 230px;*/
         background-color: white;
+    }
+
+    #center-image {
+        margin-left: 69px;
+        margin-right: 69px;
     }
 }
 
