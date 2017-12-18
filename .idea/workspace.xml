@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88546c5b-b26b-4933-8af6-e45d4e253a4e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/building.html" afterPath="$PROJECT_DIR$/building.html" />
       <change beforePath="$PROJECT_DIR$/css/habiqo_styles.css" afterPath="$PROJECT_DIR$/css/habiqo_styles.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,7 +31,7 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
+                <state relative-caret-position="-147">
                   <caret line="107" column="53" lean-forward="false" selection-start-line="107" selection-start-column="53" selection-end-line="107" selection-end-column="53" />
                   <folding />
                 </state>
@@ -77,8 +75,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="524">
-                  <caret line="377" column="5" lean-forward="true" selection-start-line="377" selection-start-column="5" selection-end-line="377" selection-end-column="5" />
+                <state relative-caret-position="441">
+                  <caret line="455" column="30" lean-forward="false" selection-start-line="455" selection-start-column="30" selection-end-line="455" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -375,7 +373,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259347000" />
+    <option name="totallyTimeSpent" value="260500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,8 +772,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="377" column="5" lean-forward="true" selection-start-line="377" selection-start-column="5" selection-end-line="377" selection-end-column="5" />
+        <state relative-caret-position="441">
+          <caret line="455" column="30" lean-forward="false" selection-start-line="455" selection-start-column="30" selection-end-line="455" selection-end-column="30" />
           <folding />
         </state>
       </provider>
