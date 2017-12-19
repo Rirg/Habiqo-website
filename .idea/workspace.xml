@@ -32,8 +32,8 @@
           <file leaf-file-name="building.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/building.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1961">
-                  <caret line="216" column="43" lean-forward="true" selection-start-line="216" selection-start-column="43" selection-end-line="216" selection-end-column="43" />
+                <state relative-caret-position="262">
+                  <caret line="125" column="40" lean-forward="false" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -76,8 +76,8 @@
           <file leaf-file-name="habiqo_styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="890" column="26" lean-forward="true" selection-start-line="890" selection-start-column="26" selection-end-line="890" selection-end-column="26" />
+                <state relative-caret-position="-179">
+                  <caret line="392" column="11" lean-forward="false" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -97,10 +97,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>place-in-front</find>
-      <find>card</find>
-      <find>opt1</find>
-      <find>options</find>
       <find>/*color: #161616;</find>
       <find>opacity: 1;</find>
       <find>projects-image-container</find>
@@ -127,6 +123,10 @@
       <find>auto</find>
       <find>content-video-conta</find>
       <find>our-tech</find>
+      <find>footer</find>
+      <find>Main</find>
+      <find>our-system</find>
+      <find>card-img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -374,7 +374,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262248000" />
+    <option name="totallyTimeSpent" value="263096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -763,18 +763,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/building.html">
+    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="346" column="22" lean-forward="false" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
+        <state relative-caret-position="-179">
+          <caret line="392" column="11" lean-forward="false" selection-start-line="392" selection-start-column="11" selection-end-line="392" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/habiqo_styles.css">
+    <entry file="file://$PROJECT_DIR$/building.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="890" column="26" lean-forward="true" selection-start-line="890" selection-start-column="26" selection-end-line="890" selection-end-column="26" />
+        <state relative-caret-position="262">
+          <caret line="125" column="40" lean-forward="false" selection-start-line="125" selection-start-column="32" selection-end-line="125" selection-end-column="40" />
           <folding />
         </state>
       </provider>
