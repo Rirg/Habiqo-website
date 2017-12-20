@@ -154,6 +154,11 @@ progress::-webkit-progress-bar {
     padding-left: 2px;
 }
 
+.main-div-container > div {
+    margin-left: 137px;
+    text-align: left;
+}
+
 .purpose-text {
     position: absolute;
     bottom: 104px;
@@ -183,43 +188,31 @@ progress::-webkit-progress-bar {
     content: url("../assets/arrow.svg") !important;
 }
 
-
-/*Small and Extra small devices (landscape phones, 576px and up)*/
-@media (max-width: 768px) {
-    .main-div-container > div {
-        margin-left: 17px;
-    }
-
-    .main-div-container > div > img {
-        margin-right: auto;
-        top: 18%;
-        padding-left: 2px;
-    }
-}
-
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 912px) {
     .main-div-container > div {
         margin-left: 71px;
     }
 }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
     .main-div-container > div {
-        margin-left: 137px;
+        margin-left: 17px;
+        margin-right: 23px;
     }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    /*.main-div-container > div > img {*/
+        /*top: 27%;*/
+    /*}*/
 
+    .purpose-text {
+        font-size: 35px;
+    }
 }
-
-.main-div-container > div {
-    text-align: left;
-}
-
 /* end main div*/
 
 /* CONTAINERS */
