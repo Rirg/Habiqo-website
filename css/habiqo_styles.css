@@ -700,7 +700,44 @@ progress::-webkit-progress-bar {
     display: block;
 }
 
-@media (max-width: 992px) {
+.projects-last-images-container {
+    overflow: hidden;
+}
+
+.text {
+    margin: 32px;
+}
+
+.text > p {
+    white-space: nowrap;
+    font-size: 42px;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+    text-align: left;
+    color: #f6f8f9;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+}
+
+.text > a {
+    white-space: nowrap;
+    position: absolute;
+    top: 80%;
+    color: white;
+    text-decoration: none;
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+
+}
+
+/*Medium devices (tablets, less than 991px)*/
+@media (max-width: 991px) {
+    .projects-last-container > .row > .col-lg-4:hover .overlay {
+        width: calc(100% - 30px) !important;;
+    }
 
     .fade-overlay > span {
         top: 45%;
@@ -750,28 +787,19 @@ progress::-webkit-progress-bar {
     }
 }
 
-.text {
-    margin: 32px;
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
+    .projects-last-container > a {
+        text-align: left;
+        float: none;
+        left: 7px;
+        margin-bottom: 50px;
+    }
 }
 
-.text > p {
-    white-space: nowrap;
-    font-size: 42px;
-    line-height: 1.1;
-    letter-spacing: -0.5px;
-    text-align: left;
-    color: #f6f8f9;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
 
-.text > a {
-    white-space: nowrap;
-    position: absolute;
-    top: 80%;
-    color: white;
-    text-decoration: none;
 }
 
 /* end projects*/
