@@ -486,6 +486,7 @@ progress::-webkit-progress-bar {
 /* Our technology */
 .our-technology-container {
     background-color: #E9ECEF !important;
+    width: 100vw;
     overflow: hidden;
 }
 .our-tech-subheading {
