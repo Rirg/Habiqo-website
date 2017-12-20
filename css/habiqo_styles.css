@@ -946,7 +946,7 @@ progress::-webkit-progress-bar {
 /* end team*/
 
 /* CONTACT */
-
+/* TODO fix the height of the container to be responsive with smaller screens (tablet landscape / desktop)*/
 .contact-container {
     height: calc(100vh - 100px);
 }
@@ -963,12 +963,14 @@ progress::-webkit-progress-bar {
 }
 
 .contact-form-container {
+    padding: 50px;
     height: 100%;
     color: white;
 }
 
 .contact-form {
-    padding: 100px;
+    max-width: 600px;
+    padding-top: 50px;
 }
 
 .contact-form > p {
@@ -1017,28 +1019,57 @@ progress::-webkit-progress-bar {
     resize: none;
 }
 
+.contact-video-container > video {
+    background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
+    width: 237%;
+    height: auto;
+    transform: translateX(-50%);
+}
+
 /* Large devices: set a specific width / auto height and translate -50% to center the video */
-@media (min-width: 992px) {
-    .contact-video-container > video {
-        background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;
-        width: 235%;
-        height: auto;
-        transform: translateX(-50%);
-    }
+/*@media (min-width: 992px) {*/
+    /*.contact-video-container > video {*/
+        /*background: url("https://daks2k3a4ib2z.cloudfront.net/59b3f36bf621620001ca26cf/59b7e5acf2ba930001b73830_video-poster-00001.jpg") no-repeat;*/
+        /*width: 235%;*/
+        /*height: auto;*/
+        /*transform: translateX(-50%);*/
+    /*}*/
+/*}*/
+
+@media (max-width: 1199px) {
+    /*.contact-container {*/
+        /*height: auto;*/
+       /**/
+    /*}*/
 }
 
 /* Medium devices: make the container height bigger and split the height 50 - 50 between the contact form and the video */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
+    .contact-form {
+        /*padding-top: 100px;*/
+        /*padding-bottom: 100px;*/
+        height: auto;
+    }
+
     .contact-container {
-        height: calc(200vh - 200px);
+        min-height: calc(200vh - 200px);
+        height: auto;
     }
 
     .contact-video-container {
-        height: 50%;
+        min-height: 50%;
+        height: auto;
     }
 
     .contact-form-container {
-        height: 50%;
+        min-height: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .contact-form-container {
+        padding: 0;
     }
 }
 
@@ -1046,9 +1077,9 @@ progress::-webkit-progress-bar {
 
 /* Footer */
 .habiqo-footer {
+    position: relative;
     padding-top: 50px;
     background-color: white;
-    height: 100%;
     font-size: 14px;
     line-height: 1.71;
     color: #787e81;
@@ -1120,13 +1151,13 @@ progress::-webkit-progress-bar {
         -ms-transform: translate(-50%, -50%);
     }
 
-    .habiqo-footer {
-        text-align: center;
-    }
+    /*.habiqo-footer {*/
+        /*text-align: center;*/
+    /*}*/
 
-    .habiqo-footer .info {
-        text-align: center;
-    }
+    /*.habiqo-footer .info {*/
+        /*text-align: center;*/
+    /*}*/
 
     .habiqo-footer {
         background-color: white;
