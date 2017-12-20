@@ -274,14 +274,23 @@ progress::-webkit-progress-bar {
 #content-video-container {
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
+    bottom: 14px;
+    left: 220px;
+    height: 430px;
+    z-index: 5;
+    background-color: white;
+    width: 570px;
+    padding: 0;
 }
 
-#content-video-container > #paragraph {
+#paragraph {
     font-size: 35px;
     line-height: 1.11;
     letter-spacing: -0.2px;
     padding-right: 30px;
     color: #161616;
+    width: 400px;
 }
 
 #subheading-video-container {
@@ -297,19 +306,29 @@ progress::-webkit-progress-bar {
     align-self: center;
     width: 100%;
     height: 400px;
+    top: 20px;
+    background-color: transparent;
 }
 
 .about-us-image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-top: 240px;
+    z-index: 4;
     align-self: center;
     max-height: 600px;
-    width: 100%;
-    height: auto;
-    margin-top: 100px;
     padding-bottom: 100px;
 }
 
-/*Extra small and Small devices (phones, landscape phones, 576px and up)*/
-@media (min-width: 320px) {
+#content-video-container > a > img, #content-video-container > p {
+    position: relative;
+    top: 87px;
+    left: 103px;
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
     .video-container {
         background-color: white;
         margin-top: 237px;
@@ -317,68 +336,50 @@ progress::-webkit-progress-bar {
         height: auto;
     }
 
-    #content-video-container {
-        width: 100%;
-        padding: 30px 22px;
+    #content-video-container > a > img, #content-video-container > p {
+        top:0;
+        left: 0;
     }
+
+    #paragraph {
+        width: 100%;
+    }
+
     .about-us-image {
+        width: 100%;
+        height: auto;
         padding-top: 0;
         margin-top: 0;
         margin-bottom: 170px;
     }
-}
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
-}
-
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
     #content-video-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
         position: relative;
-        bottom: 14px;
-        left: 220px;
-        height: 430px;
-        width: 600px;
+        bottom: 0;
+        left: 0;
+        height: auto;
+        top: 0;
         z-index: 5;
-        background-color: white;
-    }
-
-    #content-video-container {
-        width: 570px;
-        padding: 0;
-    }
-
-    #content-video-container > #paragraph {
-        width: 400px;
-    }
-
-    .video-container {
-        margin-top: 0;
-        background-color: transparent;
-    }
-
-    .about-us-image {
-        position: relative;
         width: 100%;
-        height: 600px;
-        margin-top: 240px;
-        z-index: 4;
-    }
-
-    #content-video-container > a > img, #content-video-container > p {
-        position: relative;
-        top: 87px;
-        left: 103px;
+        padding: 50px 22px;
     }
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
 
 }
 
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    #paragraph {
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: -0.2px;
+    }
+}
 /* end about us*/
 
 /* OUR SYSTEM */
