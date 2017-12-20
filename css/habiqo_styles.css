@@ -386,7 +386,13 @@ progress::-webkit-progress-bar {
 /* end about us*/
 
 /* OUR SYSTEM */
-/*Small and Extra small devices (phones, landscape phones, 320px and up)*/
+.our-system-container {
+    background-color: white;
+    padding: 130px 174px 146px 174px;
+    overflow: hidden;
+    width: 100%;
+}
+
 .our-system-subheading, .our-system-heading {
     text-align: center;
 }
@@ -440,7 +446,7 @@ progress::-webkit-progress-bar {
     padding: 0;
     font-size: 16px;
     font-weight: bold;
-    font-family: "UniversLTStd Bold";
+    font-family: "UniversLTStd Bold", serif;
     margin: 0 0 13px;
     color: black;
     text-align: center;
@@ -453,30 +459,29 @@ progress::-webkit-progress-bar {
     text-align: center;
 }
 
-
-@media (min-width: 320px) {
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
     .our-system-container {
-        background-color: white;
         padding: 130px 20px 86px;
-        overflow: hidden;
-        width: 100%;
     }
 }
 
-/*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) {
 
 }
 
-/*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) {
 
 }
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-    .our-system-container {
-        padding: 130px 174px 146px 174px;
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+    .our-system-heading {
+        font-size: 24px;
+        line-height: 1.5;
+        letter-spacing: normal;
     }
 }
 
