@@ -145,23 +145,19 @@ progress::-webkit-progress-bar {
 
 /* LOGO */
 .main-div-container > div > img {
-    position: absolute;
-    vertical-align: middle;
     width: 70px;
     height: 90px;
-    margin-right: auto;
-    top: 30%;
-    padding-left: 2px;
+    margin-bottom: 73px;
 }
 
 .main-div-container > div {
+    position: absolute;
+    bottom: 104px;
     margin-left: 137px;
     text-align: left;
 }
 
 .purpose-text {
-    position: absolute;
-    bottom: 104px;
     margin-right: 50px;
     max-width: 477px;
     font-size: 42px;
@@ -174,10 +170,8 @@ progress::-webkit-progress-bar {
 
 #learn-more-link {
     padding-left: 2px;
-    position: absolute;
     font-size: 16px;
     text-align: left;
-    bottom: 104px;
     margin-right: 50px;
     color: #f6f8f9;
     padding-right: 40px;
@@ -205,9 +199,9 @@ progress::-webkit-progress-bar {
 
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575px) {
-    /*.main-div-container > div > img {*/
-        /*top: 27%;*/
-    /*}*/
+    .main-div-container > div > img {
+        margin-bottom: 35px;
+    }
 
     .purpose-text {
         font-size: 35px;
